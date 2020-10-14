@@ -9,7 +9,7 @@ ADD go.sum go.sum
 
 ENV GO111MODULE on
 ENV CGO_ENABLED 1
-
+ENV GOPROXY "https://goproxy.cn"
 RUN go mod download
 
 ADD . .
