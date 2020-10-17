@@ -12,10 +12,10 @@ import (
 
 	"github.com/ory/x/logrusx"
 
-	"github.com/ory/kratos/driver"
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/selfservice/hook"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/driver"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/selfservice/hook"
+	"github.com/zzpu/openuser/x"
 )
 
 func resetConfig() {

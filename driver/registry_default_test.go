@@ -12,13 +12,13 @@ import (
 
 	"github.com/ory/viper"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/internal"
-	"github.com/ory/kratos/selfservice/flow/login"
-	"github.com/ory/kratos/selfservice/flow/registration"
-	"github.com/ory/kratos/selfservice/flow/settings"
-	"github.com/ory/kratos/selfservice/hook"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/internal"
+	"github.com/zzpu/openuser/selfservice/flow/login"
+	"github.com/zzpu/openuser/selfservice/flow/registration"
+	"github.com/zzpu/openuser/selfservice/flow/settings"
+	"github.com/zzpu/openuser/selfservice/hook"
 )
 
 func TestDriverDefault_Hooks(t *testing.T) {

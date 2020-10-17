@@ -3,7 +3,7 @@ package template
 import (
 	"path/filepath"
 
-	"github.com/ory/kratos/driver/configuration"
+	"github.com/zzpu/openuser/driver/configuration"
 )
 
 type TestStub struct {

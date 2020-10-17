@@ -15,18 +15,18 @@ import (
 	_ "github.com/ory/jsonschema/v3/httploader"
 	"github.com/ory/x/decoderx"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/selfservice/flow"
-	"github.com/ory/kratos/session"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/selfservice/flow"
+	"github.com/zzpu/openuser/session"
 
 	"github.com/ory/herodot"
 	"github.com/ory/x/urlx"
 
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/schema"
-	"github.com/ory/kratos/selfservice/flow/registration"
-	"github.com/ory/kratos/selfservice/form"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/schema"
+	"github.com/zzpu/openuser/selfservice/flow/registration"
+	"github.com/zzpu/openuser/selfservice/form"
+	"github.com/zzpu/openuser/x"
 )
 
 const (

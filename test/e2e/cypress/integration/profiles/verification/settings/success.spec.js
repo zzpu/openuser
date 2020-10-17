@@ -37,7 +37,7 @@ context('Settings', () => {
     })
 
     xit('should should be able to allow or deny (and revert?) the address change', () => {
-      // FIXME https://github.com/ory/kratos/issues/292
+      // FIXME https://github.com/zzpu/openuser/issues/292
     })
   })
 })

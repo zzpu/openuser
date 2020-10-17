@@ -2,7 +2,7 @@ FROM golang:1.15-alpine AS builder
 
 RUN apk -U --no-cache add build-base git gcc bash
 
-WORKDIR /go/src/github.com/ory/kratos
+WORKDIR /go/src/github.com/zzpu/openuser
 
 ADD go.mod go.mod
 ADD go.sum go.sum

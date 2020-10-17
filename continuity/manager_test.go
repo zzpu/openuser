@@ -18,11 +18,11 @@ import (
 	"github.com/ory/viper"
 	"github.com/ory/x/logrusx"
 
-	"github.com/ory/kratos/continuity"
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/internal"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/continuity"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/internal"
+	"github.com/zzpu/openuser/x"
 )
 
 type persisterTestCase struct {

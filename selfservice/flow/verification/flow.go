@@ -12,10 +12,10 @@ import (
 	"github.com/ory/x/sqlxx"
 	"github.com/ory/x/urlx"
 
-	"github.com/ory/kratos/selfservice/flow"
-	"github.com/ory/kratos/selfservice/form"
-	"github.com/ory/kratos/text"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/selfservice/flow"
+	"github.com/zzpu/openuser/selfservice/form"
+	"github.com/zzpu/openuser/text"
+	"github.com/zzpu/openuser/x"
 )
 
 // A Verification Flow

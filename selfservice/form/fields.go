@@ -7,8 +7,8 @@ import (
 
 	"github.com/ory/x/jsonschemax"
 
-	"github.com/ory/kratos/schema"
-	"github.com/ory/kratos/text"
+	"github.com/zzpu/openuser/schema"
+	"github.com/zzpu/openuser/text"
 )
 
 const DisableFormField = "disableFormField"

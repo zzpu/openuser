@@ -3,10 +3,10 @@ package samples
 import (
   "fmt"
 
-  "github.com/ory/kratos-client-go/client/public"
-  "github.com/ory/kratos-client-go/client"
+  "github.com/zzpu/openuser-client-go/client/public"
+  "github.com/zzpu/openuser-client-go/client"
 
-  "github.com/ory/kratos/internal/httpclient/client/public"
+  "github.com/zzpu/openuser/internal/httpclient/client/public"
 )
 
 func main() {

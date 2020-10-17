@@ -5,10 +5,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ory/kratos/cmd/cliclient"
-	"github.com/ory/kratos/internal/clihelpers"
-	"github.com/ory/kratos/internal/httpclient/client/version"
 	"github.com/ory/x/cmdx"
+	"github.com/zzpu/openuser/cmd/cliclient"
+	"github.com/zzpu/openuser/internal/clihelpers"
+	"github.com/zzpu/openuser/internal/httpclient/client/version"
 )
 
 type versionValue struct {

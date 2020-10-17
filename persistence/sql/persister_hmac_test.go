@@ -10,7 +10,7 @@ import (
 	"github.com/ory/viper"
 	"github.com/ory/x/logrusx"
 
-	"github.com/ory/kratos/driver/configuration"
+	"github.com/zzpu/openuser/driver/configuration"
 )
 
 func TestPersisterHMAC(t *testing.T) {

@@ -3,7 +3,7 @@ package driver
 import (
 	"net/url"
 
-	"github.com/ory/kratos/schema"
+	"github.com/zzpu/openuser/schema"
 )
 
 func (m *RegistryDefault) IdentityTraitsSchemas() schema.Schemas {

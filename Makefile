@@ -64,7 +64,7 @@ cover:
 
 .PHONY: mocks
 mocks: .bin/mockgen
-		mockgen -mock_names Manager=MockLoginExecutorDependencies -package internal -destination internal/hook_login_executor_dependencies.go github.com/ory/kratos/selfservice loginExecutorDependencies
+		mockgen -mock_names Manager=MockLoginExecutorDependencies -package internal -destination internal/hook_login_executor_dependencies.go github.com/zzpu/openuser/selfservice loginExecutorDependencies
 
 .PHONY: install
 install: .bin/packr2 .bin/pack

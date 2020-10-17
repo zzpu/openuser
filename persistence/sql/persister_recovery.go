@@ -11,8 +11,8 @@ import (
 
 	"github.com/ory/x/sqlcon"
 
-	"github.com/ory/kratos/selfservice/flow/recovery"
-	"github.com/ory/kratos/selfservice/strategy/link"
+	"github.com/zzpu/openuser/selfservice/flow/recovery"
+	"github.com/zzpu/openuser/selfservice/strategy/link"
 )
 
 var _ recovery.FlowPersister = new(Persister)

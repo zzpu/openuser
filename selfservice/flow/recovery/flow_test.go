@@ -11,8 +11,8 @@ import (
 
 	"github.com/ory/x/urlx"
 
-	"github.com/ory/kratos/selfservice/flow"
-	"github.com/ory/kratos/selfservice/flow/recovery"
+	"github.com/zzpu/openuser/selfservice/flow"
+	"github.com/zzpu/openuser/selfservice/flow/recovery"
 )
 
 func TestFlow(t *testing.T) {

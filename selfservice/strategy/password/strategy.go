@@ -9,16 +9,16 @@ import (
 
 	"github.com/ory/x/decoderx"
 
-	"github.com/ory/kratos/continuity"
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/hash"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/selfservice/errorx"
-	"github.com/ory/kratos/selfservice/flow/login"
-	"github.com/ory/kratos/selfservice/flow/registration"
-	"github.com/ory/kratos/selfservice/flow/settings"
-	"github.com/ory/kratos/session"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/continuity"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/hash"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/selfservice/errorx"
+	"github.com/zzpu/openuser/selfservice/flow/login"
+	"github.com/zzpu/openuser/selfservice/flow/registration"
+	"github.com/zzpu/openuser/selfservice/flow/settings"
+	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/openuser/x"
 )
 
 var _ login.Strategy = new(Strategy)

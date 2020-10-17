@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/kratos/courier/template"
-	"github.com/ory/kratos/internal"
+	"github.com/zzpu/openuser/courier/template"
+	"github.com/zzpu/openuser/internal"
 )
 
 func TestRecoverValid(t *testing.T) {

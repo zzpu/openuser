@@ -11,10 +11,10 @@ import (
 
 	"github.com/ory/x/urlx"
 
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/selfservice/flow"
-	"github.com/ory/kratos/text"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/selfservice/flow"
+	"github.com/zzpu/openuser/text"
+	"github.com/zzpu/openuser/x"
 )
 
 // Login Flow

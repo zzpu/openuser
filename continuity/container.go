@@ -9,7 +9,7 @@ import (
 	"github.com/ory/herodot"
 	"github.com/ory/x/sqlxx"
 
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/x"
 )
 
 type Container struct {

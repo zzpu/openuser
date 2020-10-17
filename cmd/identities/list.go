@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/ory/kratos/internal/clihelpers"
+	"github.com/zzpu/openuser/internal/clihelpers"
 
 	"github.com/spf13/cobra"
 
-	"github.com/ory/kratos/cmd/cliclient"
-	"github.com/ory/kratos/internal/httpclient/client/admin"
+	"github.com/zzpu/openuser/cmd/cliclient"
+	"github.com/zzpu/openuser/internal/httpclient/client/admin"
 )
 
 var listCmd = &cobra.Command{

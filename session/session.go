@@ -7,8 +7,8 @@ import (
 
 	"github.com/ory/x/randx"
 
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/x"
 )
 
 // swagger:model session

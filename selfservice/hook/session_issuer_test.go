@@ -16,14 +16,14 @@ import (
 
 	"github.com/ory/viper"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/internal"
-	"github.com/ory/kratos/selfservice/flow"
-	"github.com/ory/kratos/selfservice/flow/registration"
-	"github.com/ory/kratos/selfservice/hook"
-	"github.com/ory/kratos/session"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/internal"
+	"github.com/zzpu/openuser/selfservice/flow"
+	"github.com/zzpu/openuser/selfservice/flow/registration"
+	"github.com/zzpu/openuser/selfservice/hook"
+	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/openuser/x"
 )
 
 func TestSessionIssuer(t *testing.T) {

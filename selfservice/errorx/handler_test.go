@@ -20,9 +20,9 @@ import (
 
 	"github.com/ory/herodot"
 
-	"github.com/ory/kratos/internal"
-	"github.com/ory/kratos/selfservice/errorx"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/internal"
+	"github.com/zzpu/openuser/selfservice/errorx"
+	"github.com/zzpu/openuser/x"
 )
 
 func TestHandler(t *testing.T) {

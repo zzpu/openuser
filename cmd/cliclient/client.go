@@ -9,8 +9,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/ory/kratos/internal/httpclient/client"
 	"github.com/ory/x/cmdx"
+	"github.com/zzpu/openuser/internal/httpclient/client"
 )
 
 const (

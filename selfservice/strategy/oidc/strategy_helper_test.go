@@ -28,11 +28,11 @@ import (
 	"github.com/ory/x/resilience"
 	"github.com/ory/x/urlx"
 
-	"github.com/ory/kratos/driver"
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/selfservice/strategy/oidc"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/driver"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/selfservice/strategy/oidc"
+	"github.com/zzpu/openuser/x"
 )
 
 func createClient(t *testing.T, remote string, redir, id string) {

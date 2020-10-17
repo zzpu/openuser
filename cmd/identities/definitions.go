@@ -3,8 +3,8 @@ package identities
 import (
 	"strings"
 
-	"github.com/ory/kratos/internal/clihelpers"
-	"github.com/ory/kratos/internal/httpclient/models"
+	"github.com/zzpu/openuser/internal/clihelpers"
+	"github.com/zzpu/openuser/internal/httpclient/models"
 )
 
 type (

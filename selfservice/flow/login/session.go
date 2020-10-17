@@ -1,6 +1,6 @@
 package login
 
-import "github.com/ory/kratos/session"
+import "github.com/zzpu/openuser/session"
 
 // The Response for Login Flows via API
 //

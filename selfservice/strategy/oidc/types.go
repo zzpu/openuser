@@ -7,9 +7,9 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/selfservice/form"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/selfservice/form"
+	"github.com/zzpu/openuser/x"
 )
 
 type CredentialsConfig struct {

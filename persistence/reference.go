@@ -6,17 +6,17 @@ import (
 
 	"github.com/gobuffalo/pop/v5"
 
-	"github.com/ory/kratos/continuity"
-	"github.com/ory/kratos/courier"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/selfservice/errorx"
-	"github.com/ory/kratos/selfservice/flow/login"
-	"github.com/ory/kratos/selfservice/flow/recovery"
-	"github.com/ory/kratos/selfservice/flow/registration"
-	"github.com/ory/kratos/selfservice/flow/settings"
-	"github.com/ory/kratos/selfservice/flow/verification"
-	"github.com/ory/kratos/selfservice/strategy/link"
-	"github.com/ory/kratos/session"
+	"github.com/zzpu/openuser/continuity"
+	"github.com/zzpu/openuser/courier"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/selfservice/errorx"
+	"github.com/zzpu/openuser/selfservice/flow/login"
+	"github.com/zzpu/openuser/selfservice/flow/recovery"
+	"github.com/zzpu/openuser/selfservice/flow/registration"
+	"github.com/zzpu/openuser/selfservice/flow/settings"
+	"github.com/zzpu/openuser/selfservice/flow/verification"
+	"github.com/zzpu/openuser/selfservice/strategy/link"
+	"github.com/zzpu/openuser/session"
 )
 
 type Provider interface {

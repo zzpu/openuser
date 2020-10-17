@@ -1,39 +1,39 @@
 package driver
 
 import (
-	"github.com/ory/kratos/metrics/prometheus"
 	"github.com/ory/x/tracing"
+	"github.com/zzpu/openuser/metrics/prometheus"
 
 	"github.com/gorilla/sessions"
 	"github.com/pkg/errors"
 
 	"github.com/ory/x/logrusx"
 
-	"github.com/ory/kratos/continuity"
-	"github.com/ory/kratos/courier"
-	"github.com/ory/kratos/hash"
-	"github.com/ory/kratos/schema"
-	"github.com/ory/kratos/selfservice/flow/recovery"
-	"github.com/ory/kratos/selfservice/flow/settings"
-	"github.com/ory/kratos/selfservice/flow/verification"
-	"github.com/ory/kratos/selfservice/strategy/link"
+	"github.com/zzpu/openuser/continuity"
+	"github.com/zzpu/openuser/courier"
+	"github.com/zzpu/openuser/hash"
+	"github.com/zzpu/openuser/schema"
+	"github.com/zzpu/openuser/selfservice/flow/recovery"
+	"github.com/zzpu/openuser/selfservice/flow/settings"
+	"github.com/zzpu/openuser/selfservice/flow/verification"
+	"github.com/zzpu/openuser/selfservice/strategy/link"
 
 	"github.com/ory/x/healthx"
 
-	"github.com/ory/kratos/persistence"
-	"github.com/ory/kratos/selfservice/flow/login"
-	"github.com/ory/kratos/selfservice/flow/logout"
-	"github.com/ory/kratos/selfservice/flow/registration"
+	"github.com/zzpu/openuser/persistence"
+	"github.com/zzpu/openuser/selfservice/flow/login"
+	"github.com/zzpu/openuser/selfservice/flow/logout"
+	"github.com/zzpu/openuser/selfservice/flow/registration"
 
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/x"
 
 	"github.com/ory/x/dbal"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/selfservice/errorx"
-	password2 "github.com/ory/kratos/selfservice/strategy/password"
-	"github.com/ory/kratos/session"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/selfservice/errorx"
+	password2 "github.com/zzpu/openuser/selfservice/strategy/password"
+	"github.com/zzpu/openuser/session"
 )
 
 type Registry interface {

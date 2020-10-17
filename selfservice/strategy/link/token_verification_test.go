@@ -11,8 +11,8 @@ import (
 	"github.com/ory/x/stringslice"
 	"github.com/ory/x/urlx"
 
-	"github.com/ory/kratos/selfservice/flow"
-	"github.com/ory/kratos/selfservice/flow/verification"
+	"github.com/zzpu/openuser/selfservice/flow"
+	"github.com/zzpu/openuser/selfservice/flow/verification"
 )
 
 func TestVerificationToken(t *testing.T) {

@@ -17,13 +17,13 @@ import (
 	"github.com/ory/viper"
 	"github.com/ory/x/pointerx"
 
-	"github.com/ory/kratos/driver"
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/internal/httpclient/client/public"
-	"github.com/ory/kratos/internal/httpclient/models"
-	"github.com/ory/kratos/selfservice/flow/recovery"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/driver"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/internal/httpclient/client/public"
+	"github.com/zzpu/openuser/internal/httpclient/models"
+	"github.com/zzpu/openuser/selfservice/flow/recovery"
+	"github.com/zzpu/openuser/x"
 )
 
 func NewRecoveryUIFlowEchoServer(t *testing.T, reg driver.Registry) *httptest.Server {

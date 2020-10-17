@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/internal"
-	"github.com/ory/kratos/schema"
 	"github.com/ory/viper"
 	"github.com/ory/x/urlx"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/internal"
+	"github.com/zzpu/openuser/schema"
 )
 
 func TestRegistryDefault_IdentityTraitsSchemas(t *testing.T) {

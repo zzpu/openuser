@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ory/kratos/cmd/remote"
+	"github.com/zzpu/openuser/cmd/remote"
 
-	"github.com/ory/kratos/cmd/identities"
-	"github.com/ory/kratos/cmd/jsonnet"
-	"github.com/ory/kratos/cmd/migrate"
-	"github.com/ory/kratos/cmd/serve"
-	"github.com/ory/kratos/internal/clihelpers"
 	"github.com/ory/x/cmdx"
+	"github.com/zzpu/openuser/cmd/identities"
+	"github.com/zzpu/openuser/cmd/jsonnet"
+	"github.com/zzpu/openuser/cmd/migrate"
+	"github.com/zzpu/openuser/cmd/serve"
+	"github.com/zzpu/openuser/internal/clihelpers"
 
 	"github.com/ory/x/viperx"
 

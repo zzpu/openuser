@@ -18,15 +18,15 @@ import (
 
 	"github.com/ory/viper"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/internal"
-	"github.com/ory/kratos/internal/httpclient/models"
-	"github.com/ory/kratos/internal/testhelpers"
-	"github.com/ory/kratos/selfservice/flow/settings"
-	"github.com/ory/kratos/selfservice/strategy/password"
-	"github.com/ory/kratos/selfservice/strategy/profile"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/internal"
+	"github.com/zzpu/openuser/internal/httpclient/models"
+	"github.com/zzpu/openuser/internal/testhelpers"
+	"github.com/zzpu/openuser/selfservice/flow/settings"
+	"github.com/zzpu/openuser/selfservice/strategy/password"
+	"github.com/zzpu/openuser/selfservice/strategy/profile"
+	"github.com/zzpu/openuser/x"
 )
 
 func init() {

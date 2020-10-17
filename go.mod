@@ -1,4 +1,4 @@
-module github.com/ory/kratos
+module github.com/zzpu/openuser
 
 go 1.14
 

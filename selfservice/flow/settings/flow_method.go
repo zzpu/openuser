@@ -9,7 +9,7 @@ import (
 
 	"github.com/gofrs/uuid"
 
-	"github.com/ory/kratos/selfservice/form"
+	"github.com/zzpu/openuser/selfservice/form"
 )
 
 // swagger:model settingsFlowMethod

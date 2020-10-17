@@ -11,8 +11,8 @@ import (
 	"github.com/ory/jsonschema/v3"
 	_ "github.com/ory/jsonschema/v3/fileloader"
 
-	"github.com/ory/kratos/schema"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/schema"
+	"github.com/zzpu/openuser/x"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

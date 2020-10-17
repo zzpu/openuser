@@ -3,8 +3,8 @@ package api
 import (
   "fmt"
 
-  "github.com/ory/kratos-client-go/client/public"
-  "github.com/ory/kratos-client-go/client"
+  "github.com/zzpu/openuser-client-go/client/public"
+  "github.com/zzpu/openuser-client-go/client"
 )
 
 func main() {

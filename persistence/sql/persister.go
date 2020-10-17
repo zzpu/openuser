@@ -8,11 +8,11 @@ import (
 	"github.com/markbates/pkger"
 	"github.com/pkg/errors"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/persistence"
-	"github.com/ory/kratos/schema"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/persistence"
+	"github.com/zzpu/openuser/schema"
+	"github.com/zzpu/openuser/x"
 )
 
 var _ persistence.Persister = new(Persister)

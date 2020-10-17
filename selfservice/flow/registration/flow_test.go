@@ -12,9 +12,9 @@ import (
 
 	"github.com/ory/x/urlx"
 
-	"github.com/ory/kratos/selfservice/flow"
-	"github.com/ory/kratos/selfservice/flow/registration"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/selfservice/flow"
+	"github.com/zzpu/openuser/selfservice/flow/registration"
+	"github.com/zzpu/openuser/x"
 )
 
 func TestFakeFlow(t *testing.T) {

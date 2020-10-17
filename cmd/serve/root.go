@@ -18,10 +18,10 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ory/kratos/internal/clihelpers"
 	"github.com/ory/x/logrusx"
+	"github.com/zzpu/openuser/internal/clihelpers"
 
-	"github.com/ory/kratos/driver/configuration"
+	"github.com/zzpu/openuser/driver/configuration"
 
 	"github.com/ory/x/viperx"
 
@@ -29,9 +29,9 @@ import (
 
 	"github.com/ory/x/flagx"
 
-	"github.com/ory/kratos/cmd/daemon"
-	"github.com/ory/kratos/driver"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/cmd/daemon"
+	"github.com/zzpu/openuser/driver"
+	"github.com/zzpu/openuser/x"
 )
 
 var logger *logrusx.Logger
@@ -77,5 +77,5 @@ func RegisterCommandRecursive(parent *cobra.Command) {
 func init() {
 	disableTelemetryEnv, _ := strconv.ParseBool(os.Getenv("DISABLE_TELEMETRY"))
 	serveCmd.PersistentFlags().Bool("disable-telemetry", disableTelemetryEnv, "Disable anonymized telemetry reports - for more information please visit https://www.ory.sh/docs/ecosystem/sqa")
-	serveCmd.PersistentFlags().Bool("dev", false, "Disables critical security features to make development easier")
+	serveCmd.PersistentFlags().Bool("dev", true, "Disables critical security features to make development easier")
 }

@@ -12,7 +12,7 @@ track of future changes.
 
 ## v0.4.4-alpha.1
 
-Please head over to the [CHANGELOG](https://github.com/ory/kratos/blob/master/CHANGELOG.md#040-alpha1-2020-07-08)
+Please head over to the [CHANGELOG](https://github.com/zzpu/openuser/blob/master/CHANGELOG.md#040-alpha1-2020-07-08)
 
 ## v0.3.0-alpha.1
 

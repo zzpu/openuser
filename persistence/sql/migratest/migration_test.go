@@ -24,17 +24,17 @@ import (
 	"github.com/gobuffalo/pop/v5"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/kratos/driver"
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/internal/testhelpers"
-	"github.com/ory/kratos/selfservice/flow/login"
-	"github.com/ory/kratos/selfservice/flow/recovery"
-	"github.com/ory/kratos/selfservice/flow/registration"
-	"github.com/ory/kratos/selfservice/flow/settings"
-	"github.com/ory/kratos/selfservice/flow/verification"
-	"github.com/ory/kratos/selfservice/strategy/link"
-	"github.com/ory/kratos/session"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/driver"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/internal/testhelpers"
+	"github.com/zzpu/openuser/selfservice/flow/login"
+	"github.com/zzpu/openuser/selfservice/flow/recovery"
+	"github.com/zzpu/openuser/selfservice/flow/registration"
+	"github.com/zzpu/openuser/selfservice/flow/settings"
+	"github.com/zzpu/openuser/selfservice/flow/verification"
+	"github.com/zzpu/openuser/selfservice/strategy/link"
+	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/openuser/x"
 )
 
 func TestMigrations(t *testing.T) {

@@ -12,11 +12,11 @@ import (
 
 	"github.com/ory/viper"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/selfservice/form"
-	"github.com/ory/kratos/text"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/selfservice/form"
+	"github.com/zzpu/openuser/text"
+	"github.com/zzpu/openuser/x"
 )
 
 type (

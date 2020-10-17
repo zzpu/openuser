@@ -8,7 +8,7 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/x"
 )
 
 func TestContainer(t *testing.T) {

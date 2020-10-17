@@ -15,8 +15,8 @@ import (
 	"github.com/ory/x/flagx"
 	"github.com/ory/x/logrusx"
 
-	"github.com/ory/kratos/driver"
-	"github.com/ory/kratos/driver/configuration"
+	"github.com/zzpu/openuser/driver"
+	"github.com/zzpu/openuser/driver/configuration"
 )
 
 type MigrateHandler struct{}

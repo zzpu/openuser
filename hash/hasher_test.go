@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/kratos/hash"
-	"github.com/ory/kratos/internal"
+	"github.com/zzpu/openuser/hash"
+	"github.com/zzpu/openuser/internal"
 )
 
 func mkpw(t *testing.T, length int) []byte {

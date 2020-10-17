@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/x"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/identity"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/identity"
 )
 
 func TestGetCmd(t *testing.T) {

@@ -17,16 +17,16 @@ import (
 	"github.com/ory/x/pointerx"
 	"github.com/ory/x/sqlxx"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/internal"
-	sdkp "github.com/ory/kratos/internal/httpclient/client/public"
-	"github.com/ory/kratos/internal/httpclient/models"
-	"github.com/ory/kratos/internal/testhelpers"
-	"github.com/ory/kratos/selfservice/flow/verification"
-	"github.com/ory/kratos/selfservice/strategy/link"
-	"github.com/ory/kratos/text"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/internal"
+	sdkp "github.com/zzpu/openuser/internal/httpclient/client/public"
+	"github.com/zzpu/openuser/internal/httpclient/models"
+	"github.com/zzpu/openuser/internal/testhelpers"
+	"github.com/zzpu/openuser/selfservice/flow/verification"
+	"github.com/zzpu/openuser/selfservice/strategy/link"
+	"github.com/zzpu/openuser/text"
+	"github.com/zzpu/openuser/x"
 )
 
 func TestVerification(t *testing.T) {

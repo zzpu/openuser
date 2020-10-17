@@ -18,7 +18,7 @@ package main
 import (
 	"github.com/ory/x/profilex"
 
-	"github.com/ory/kratos/cmd"
+	"github.com/zzpu/openuser/cmd"
 )
 
 func main() {

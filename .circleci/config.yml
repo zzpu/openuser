@@ -48,7 +48,7 @@ jobs:
           - URLS_LOGIN=http://127.0.0.1:4499/login
           - URLS_CONSENT=http://127.0.0.1:4499/consent
         command: serve all --dangerous-force-http
-    working_directory: /go/src/github.com/ory/kratos
+    working_directory: /go/src/github.com/zzpu/openuser
     steps:
       - checkout
       - setup_remote_docker
@@ -94,7 +94,7 @@ jobs:
         environment:
           - MYSQL_ROOT_PASSWORD=test
       - image: oryd/mailslurper:latest-smtps
-    working_directory: /go/src/github.com/ory/kratos
+    working_directory: /go/src/github.com/zzpu/openuser
     steps:
       - checkout
       # core node_modules cache

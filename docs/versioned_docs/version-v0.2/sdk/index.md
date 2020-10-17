@@ -19,11 +19,11 @@ repositories:
 
 - [Python](https://pypi.org/project/ory-kratos-client/)
 - [PHP](https://packagist.org/packages/ory/kratos-client)
-- [Go](https://github.com/ory/kratos-client-go)
+- [Go](https://github.com/zzpu/openuser-client-go)
 - [NodeJS](https://www.npmjs.com/package/@oryd/kratos-client) (with TypeScript)
 - [Java](https://search.maven.org/artifact/sh.ory.kratos/kratos-client)
 - [Ruby](https://rubygems.org/gems/ory-kratos-client)
 
 Missing your programming language?
-[Create an issue](https://github.com/ory/kratos/issues) and help us build, test
+[Create an issue](https://github.com/zzpu/openuser/issues) and help us build, test
 and publish the SDK for your programming language!

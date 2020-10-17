@@ -14,12 +14,12 @@ import (
 	"github.com/ory/herodot"
 	"github.com/ory/x/urlx"
 
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/schema"
-	"github.com/ory/kratos/selfservice/flow"
-	"github.com/ory/kratos/selfservice/flow/login"
-	"github.com/ory/kratos/selfservice/form"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/schema"
+	"github.com/zzpu/openuser/selfservice/flow"
+	"github.com/zzpu/openuser/selfservice/flow/login"
+	"github.com/zzpu/openuser/selfservice/form"
+	"github.com/zzpu/openuser/x"
 )
 
 const (

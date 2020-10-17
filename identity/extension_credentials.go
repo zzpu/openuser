@@ -9,7 +9,7 @@ import (
 	"github.com/ory/jsonschema/v3"
 	"github.com/ory/x/sqlxx"
 
-	"github.com/ory/kratos/schema"
+	"github.com/zzpu/openuser/schema"
 )
 
 type SchemaExtensionCredentials struct {

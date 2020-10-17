@@ -7,7 +7,7 @@ import (
 
 	"github.com/ory/x/sqlcon"
 
-	"github.com/ory/kratos/session"
+	"github.com/zzpu/openuser/session"
 )
 
 var _ session.Persister = new(Persister)

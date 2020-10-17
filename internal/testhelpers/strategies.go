@@ -5,7 +5,7 @@ import (
 
 	"github.com/ory/viper"
 
-	"github.com/ory/kratos/driver/configuration"
+	"github.com/zzpu/openuser/driver/configuration"
 )
 
 func StrategyEnable(strategy string, enable bool) {

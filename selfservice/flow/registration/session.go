@@ -1,8 +1,8 @@
 package registration
 
 import (
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/session"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/session"
 )
 
 // The Response for Registration Flows via API

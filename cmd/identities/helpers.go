@@ -11,18 +11,18 @@ import (
 	"github.com/pkg/errors"
 	"github.com/tidwall/gjson"
 
-	"github.com/ory/kratos/identity"
+	"github.com/zzpu/openuser/identity"
 
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/kratos/cmd/cliclient"
-	"github.com/ory/kratos/driver"
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/internal"
-	"github.com/ory/kratos/internal/clihelpers"
-	"github.com/ory/kratos/internal/testhelpers"
 	"github.com/ory/viper"
+	"github.com/zzpu/openuser/cmd/cliclient"
+	"github.com/zzpu/openuser/driver"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/internal"
+	"github.com/zzpu/openuser/internal/clihelpers"
+	"github.com/zzpu/openuser/internal/testhelpers"
 )
 
 func parseIdentities(raw []byte) (rawIdentities []string) {

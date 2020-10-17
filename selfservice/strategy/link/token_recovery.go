@@ -8,9 +8,9 @@ import (
 
 	"github.com/ory/x/randx"
 
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/selfservice/flow/recovery"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/selfservice/flow/recovery"
+	"github.com/zzpu/openuser/x"
 )
 
 type RecoveryToken struct {

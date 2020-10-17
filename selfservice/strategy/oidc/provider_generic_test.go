@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ory/kratos/selfservice/flow/login"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/selfservice/flow/login"
+	"github.com/zzpu/openuser/x"
 )
 
 func makeAuthCodeURL(t *testing.T, r *login.Flow) string {

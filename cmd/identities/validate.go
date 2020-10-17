@@ -11,13 +11,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/tidwall/gjson"
 
-	"github.com/ory/kratos/internal/httpclient/client/public"
+	"github.com/zzpu/openuser/internal/httpclient/client/public"
 
-	"github.com/ory/kratos/internal/clihelpers"
+	"github.com/zzpu/openuser/internal/clihelpers"
 
 	"github.com/ory/jsonschema/v3"
-	"github.com/ory/kratos/cmd/cliclient"
 	"github.com/ory/x/viperx"
+	"github.com/zzpu/openuser/cmd/cliclient"
 )
 
 var validateCmd = &cobra.Command{

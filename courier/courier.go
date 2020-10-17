@@ -15,8 +15,8 @@ import (
 
 	gomail "github.com/ory/mail/v3"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/x"
 )
 
 type (

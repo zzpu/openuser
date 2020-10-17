@@ -32,7 +32,7 @@ one is not yet authenticated.
 Clone the ORY Kratos repository and fetch the latest images:
 
 ```shell script
-git clone https://github.com/ory/kratos.git
+git clone https://github.com/zzpu/openuser.git
 # or if you have git+ssh set up:
 #  git clone git@github.com:ory/kratos.git
 cd kratos
@@ -80,9 +80,9 @@ oathkeeper_1                  | {"level":"info","msg":"Listening on http://:4455
 
 This demo makes use of several services / Docker Images:
 
-1. [ORY Kratos](https://github.com/ory/kratos)
+1. [ORY Kratos](https://github.com/zzpu/openuser)
 2. The **SecureApp** - an
-   [example application written in NodeJS](http://github.com/ory/kratos-selfservice-ui-node)
+   [example application written in NodeJS](http://github.com/zzpu/openuser-selfservice-ui-node)
    that implements the login, registration, logout, ..., and dashboard screen.
 3. A reverse proxy ([ORY Oathkeeper](https://github.com/ory/oathkeeper)) to
    protect the **SecureApp**.

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ory/kratos/metrics/prometheus"
+	"github.com/zzpu/openuser/metrics/prometheus"
 
 	"github.com/ory/analytics-go/v4"
 
@@ -19,20 +19,20 @@ import (
 	"github.com/ory/graceful"
 	"github.com/ory/x/metricsx"
 
-	"github.com/ory/kratos/driver"
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/selfservice/errorx"
-	"github.com/ory/kratos/selfservice/flow/login"
-	"github.com/ory/kratos/selfservice/flow/logout"
-	"github.com/ory/kratos/selfservice/flow/registration"
-	"github.com/ory/kratos/selfservice/flow/settings"
-	"github.com/ory/kratos/selfservice/flow/verification"
-	"github.com/ory/kratos/selfservice/strategy/link"
-	"github.com/ory/kratos/selfservice/strategy/oidc"
-	"github.com/ory/kratos/selfservice/strategy/password"
-	"github.com/ory/kratos/selfservice/strategy/profile"
-	"github.com/ory/kratos/session"
-	"github.com/ory/kratos/x"
+	"github.com/zzpu/openuser/driver"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/selfservice/errorx"
+	"github.com/zzpu/openuser/selfservice/flow/login"
+	"github.com/zzpu/openuser/selfservice/flow/logout"
+	"github.com/zzpu/openuser/selfservice/flow/registration"
+	"github.com/zzpu/openuser/selfservice/flow/settings"
+	"github.com/zzpu/openuser/selfservice/flow/verification"
+	"github.com/zzpu/openuser/selfservice/strategy/link"
+	"github.com/zzpu/openuser/selfservice/strategy/oidc"
+	"github.com/zzpu/openuser/selfservice/strategy/password"
+	"github.com/zzpu/openuser/selfservice/strategy/profile"
+	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/openuser/x"
 )
 
 func servePublic(d driver.Driver, wg *sync.WaitGroup, cmd *cobra.Command, args []string) {
@@ -53,6 +53,8 @@ func servePublic(d driver.Driver, wg *sync.WaitGroup, cmd *cobra.Command, args [
 		!flagx.MustGetBool(cmd, "dev"),
 	)
 	r.WithCSRFHandler(csrf)
+
+	//r.CSRFHandler() 就是上面的东西
 	n.UseHandler(r.CSRFHandler())
 
 	r.RegisterPublicRoutes(router)

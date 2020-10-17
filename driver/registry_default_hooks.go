@@ -1,8 +1,8 @@
 package driver
 
 import (
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/selfservice/hook"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/selfservice/hook"
 )
 
 func (m *RegistryDefault) HookVerifier() *hook.Verifier {

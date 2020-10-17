@@ -9,8 +9,8 @@ import (
 
 	"github.com/gofrs/uuid"
 
-	"github.com/ory/kratos/identity"
-	"github.com/ory/kratos/selfservice/form"
+	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/openuser/selfservice/form"
 )
 
 // swagger:model loginFlowMethod

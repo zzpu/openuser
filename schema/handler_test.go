@@ -13,12 +13,12 @@ import (
 
 	_ "github.com/ory/jsonschema/v3/fileloader"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/internal"
-	"github.com/ory/kratos/schema"
-	"github.com/ory/kratos/x"
 	"github.com/ory/viper"
 	"github.com/ory/x/urlx"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/internal"
+	"github.com/zzpu/openuser/schema"
+	"github.com/zzpu/openuser/x"
 )
 
 func TestHandler(t *testing.T) {

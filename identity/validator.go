@@ -3,8 +3,8 @@ package identity
 import (
 	"github.com/tidwall/sjson"
 
-	"github.com/ory/kratos/driver/configuration"
-	"github.com/ory/kratos/schema"
+	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/openuser/schema"
 )
 
 type (
