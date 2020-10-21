@@ -3,7 +3,7 @@ package driver
 import (
 	"github.com/ory/x/logrusx"
 
-	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/ums/driver/configuration"
 )
 
 type BuildInfo struct {

@@ -13,13 +13,13 @@ import (
 
 	"github.com/ory/x/sqlcon"
 
-	"github.com/zzpu/openuser/continuity"
-	"github.com/zzpu/openuser/internal/testhelpers"
-	"github.com/zzpu/openuser/persistence/sql"
-	"github.com/zzpu/openuser/selfservice/errorx"
-	"github.com/zzpu/openuser/selfservice/flow/recovery"
-	"github.com/zzpu/openuser/selfservice/strategy/link"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/continuity"
+	"github.com/zzpu/ums/internal/testhelpers"
+	"github.com/zzpu/ums/persistence/sql"
+	"github.com/zzpu/ums/selfservice/errorx"
+	"github.com/zzpu/ums/selfservice/flow/recovery"
+	"github.com/zzpu/ums/selfservice/strategy/link"
+	"github.com/zzpu/ums/x"
 
 	"github.com/gobuffalo/pop/v5"
 	"github.com/gobuffalo/pop/v5/logging"
@@ -30,14 +30,14 @@ import (
 	// "github.com/ory/x/sqlcon/dockertest"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zzpu/openuser/courier"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/internal"
-	"github.com/zzpu/openuser/selfservice/flow/login"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
-	"github.com/zzpu/openuser/selfservice/flow/settings"
-	"github.com/zzpu/openuser/selfservice/flow/verification"
-	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/ums/courier"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/internal"
+	"github.com/zzpu/ums/selfservice/flow/login"
+	"github.com/zzpu/ums/selfservice/flow/registration"
+	"github.com/zzpu/ums/selfservice/flow/settings"
+	"github.com/zzpu/ums/selfservice/flow/verification"
+	"github.com/zzpu/ums/session"
 )
 
 // Workaround for https://github.com/gobuffalo/pop/pull/481

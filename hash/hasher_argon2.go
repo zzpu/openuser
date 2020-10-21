@@ -11,7 +11,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/argon2"
 
-	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/ums/driver/configuration"
 )
 
 var (

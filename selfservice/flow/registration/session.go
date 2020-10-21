@@ -1,8 +1,8 @@
 package registration
 
 import (
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/session"
 )
 
 // The Response for Registration Flows via API

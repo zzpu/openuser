@@ -19,8 +19,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zzpu/openuser/schema"
-	"github.com/zzpu/openuser/text"
+	"github.com/zzpu/ums/schema"
+	"github.com/zzpu/ums/text"
 )
 
 func newJSONRequest(t *testing.T, j string) *http.Request {

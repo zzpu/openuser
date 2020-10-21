@@ -10,7 +10,7 @@ import (
 	"github.com/spf13/pflag"
 
 	"github.com/ory/x/cmdx"
-	"github.com/zzpu/openuser/internal/httpclient/client"
+	"github.com/zzpu/ums/internal/httpclient/client"
 )
 
 const (

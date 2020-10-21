@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/internal"
-	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/internal"
+	"github.com/zzpu/ums/session"
 )
 
 func TestSession(t *testing.T) {

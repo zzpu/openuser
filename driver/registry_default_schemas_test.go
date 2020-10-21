@@ -7,9 +7,9 @@ import (
 
 	"github.com/ory/viper"
 	"github.com/ory/x/urlx"
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/internal"
-	"github.com/zzpu/openuser/schema"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/internal"
+	"github.com/zzpu/ums/schema"
 )
 
 func TestRegistryDefault_IdentityTraitsSchemas(t *testing.T) {

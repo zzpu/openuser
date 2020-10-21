@@ -18,14 +18,14 @@ import (
 
 	"github.com/ory/viper"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/internal"
-	"github.com/zzpu/openuser/internal/httpclient/client/public"
-	"github.com/zzpu/openuser/internal/httpclient/models"
-	"github.com/zzpu/openuser/internal/testhelpers"
-	. "github.com/zzpu/openuser/session"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/internal"
+	"github.com/zzpu/ums/internal/httpclient/client/public"
+	"github.com/zzpu/ums/internal/httpclient/models"
+	"github.com/zzpu/ums/internal/testhelpers"
+	. "github.com/zzpu/ums/session"
+	"github.com/zzpu/ums/x"
 )
 
 func init() {

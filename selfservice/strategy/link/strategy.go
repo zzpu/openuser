@@ -3,17 +3,17 @@ package link
 import (
 	"github.com/ory/x/decoderx"
 
-	"github.com/zzpu/openuser/courier"
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/schema"
-	"github.com/zzpu/openuser/selfservice/errorx"
-	"github.com/zzpu/openuser/selfservice/flow/recovery"
-	"github.com/zzpu/openuser/selfservice/flow/settings"
-	"github.com/zzpu/openuser/selfservice/flow/verification"
-	"github.com/zzpu/openuser/selfservice/form"
-	"github.com/zzpu/openuser/session"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/courier"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/schema"
+	"github.com/zzpu/ums/selfservice/errorx"
+	"github.com/zzpu/ums/selfservice/flow/recovery"
+	"github.com/zzpu/ums/selfservice/flow/settings"
+	"github.com/zzpu/ums/selfservice/flow/verification"
+	"github.com/zzpu/ums/selfservice/form"
+	"github.com/zzpu/ums/session"
+	"github.com/zzpu/ums/x"
 )
 
 var _ recovery.Strategy = new(Strategy)

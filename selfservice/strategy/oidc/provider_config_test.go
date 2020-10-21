@@ -10,10 +10,10 @@ import (
 
 	"github.com/ory/viper"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/internal"
-	"github.com/zzpu/openuser/selfservice/strategy/oidc"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/internal"
+	"github.com/zzpu/ums/selfservice/strategy/oidc"
 )
 
 func TestConfig(t *testing.T) {

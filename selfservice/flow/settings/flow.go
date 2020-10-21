@@ -15,11 +15,11 @@ import (
 
 	"github.com/ory/herodot"
 
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/flow"
-	"github.com/zzpu/openuser/session"
-	"github.com/zzpu/openuser/text"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/flow"
+	"github.com/zzpu/ums/session"
+	"github.com/zzpu/ums/text"
+	"github.com/zzpu/ums/x"
 )
 
 // Flow represents a Settings Flow

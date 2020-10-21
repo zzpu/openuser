@@ -215,7 +215,7 @@ You may also mix usernames and passwords:
 ### Phone Number And Password
 
 > This will be addressed in a future release and is tracked as
-> [kratos#137](https://github.com/zzpu/openuser/issues/137).
+> [kratos#137](https://github.com/zzpu/ums/issues/137).
 
 ## Browser Clients
 
@@ -375,7 +375,7 @@ as:
 ```
 
 > Validation error messages and context will be improved in future releases.
-> This is tracked as [kratos#185](https://github.com/zzpu/openuser/issues/185).
+> This is tracked as [kratos#185](https://github.com/zzpu/ums/issues/185).
 
 ### Login
 
@@ -473,7 +473,7 @@ Password-based authentication flows are subject to frequent abuse through
 ### Anti-automation
 
 > This feature is a work in progress and is tracked as
-> [kratos#133](https://github.com/zzpu/openuser/issues/138).
+> [kratos#133](https://github.com/zzpu/ums/issues/138).
 
 Actions that cause out-of-band communications, such as sending an activation
 link via email or an activation code via SMS, can be abused by automated
@@ -495,7 +495,7 @@ login, account recovery) integration documentation.
 ### Password Validation
 
 > Further improvements are work in progress and are tracked on
-> [GitHub](https://github.com/zzpu/openuser/issues?q=is%3Aopen+label%3Amodule%3Ass%2Fpassword+)
+> [GitHub](https://github.com/zzpu/ums/issues?q=is%3Aopen+label%3Amodule%3Ass%2Fpassword+)
 
 To prevent weak passwords ORY Kratos implements different measures. Users often
 choose passwords similar to their traits. To prevent this ORY Kratos ensures
@@ -514,7 +514,7 @@ being used.
 ### Account Enumeration Defenses (work in progress)
 
 > This feature is a work in progress and is tracked as
-> [kratos#133](https://github.com/zzpu/openuser/issues/133).
+> [kratos#133](https://github.com/zzpu/ums/issues/133).
 
 Account enumeration attacks allow a attacker to find out who is signed up. This
 compromises the privacy of your users and can hurt reputation depending on the

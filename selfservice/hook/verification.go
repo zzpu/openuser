@@ -3,12 +3,12 @@ package hook
 import (
 	"net/http"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
-	"github.com/zzpu/openuser/selfservice/flow/settings"
-	"github.com/zzpu/openuser/selfservice/strategy/link"
-	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/flow/registration"
+	"github.com/zzpu/ums/selfservice/flow/settings"
+	"github.com/zzpu/ums/selfservice/strategy/link"
+	"github.com/zzpu/ums/session"
 )
 
 var _ registration.PostHookPostPersistExecutor = new(Verifier)

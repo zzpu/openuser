@@ -2,38 +2,38 @@ package driver
 
 import (
 	"github.com/ory/x/tracing"
-	"github.com/zzpu/openuser/metrics/prometheus"
+	"github.com/zzpu/ums/metrics/prometheus"
 
 	"github.com/gorilla/sessions"
 	"github.com/pkg/errors"
 
 	"github.com/ory/x/logrusx"
 
-	"github.com/zzpu/openuser/continuity"
-	"github.com/zzpu/openuser/courier"
-	"github.com/zzpu/openuser/hash"
-	"github.com/zzpu/openuser/schema"
-	"github.com/zzpu/openuser/selfservice/flow/recovery"
-	"github.com/zzpu/openuser/selfservice/flow/settings"
-	"github.com/zzpu/openuser/selfservice/flow/verification"
-	"github.com/zzpu/openuser/selfservice/strategy/link"
+	"github.com/zzpu/ums/continuity"
+	"github.com/zzpu/ums/courier"
+	"github.com/zzpu/ums/hash"
+	"github.com/zzpu/ums/schema"
+	"github.com/zzpu/ums/selfservice/flow/recovery"
+	"github.com/zzpu/ums/selfservice/flow/settings"
+	"github.com/zzpu/ums/selfservice/flow/verification"
+	"github.com/zzpu/ums/selfservice/strategy/link"
 
 	"github.com/ory/x/healthx"
 
-	"github.com/zzpu/openuser/persistence"
-	"github.com/zzpu/openuser/selfservice/flow/login"
-	"github.com/zzpu/openuser/selfservice/flow/logout"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
+	"github.com/zzpu/ums/persistence"
+	"github.com/zzpu/ums/selfservice/flow/login"
+	"github.com/zzpu/ums/selfservice/flow/logout"
+	"github.com/zzpu/ums/selfservice/flow/registration"
 
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/x"
 
 	"github.com/ory/x/dbal"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/errorx"
-	password2 "github.com/zzpu/openuser/selfservice/strategy/password"
-	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/errorx"
+	password2 "github.com/zzpu/ums/selfservice/strategy/password"
+	"github.com/zzpu/ums/session"
 )
 
 type Registry interface {

@@ -1,6 +1,6 @@
 version: v0.4.6-alpha.1
 
-dsn: memory
+dsn: "mysql://root:rank$123@tcp(47.115.166.195:3306)/ums?max_conns=20&max_idle_conns=4&parseTime=true&loc=Local"
 
 serve:
   public:

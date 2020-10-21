@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/x"
 )
 
 func TestNewVerifiableEmailAddress(t *testing.T) {

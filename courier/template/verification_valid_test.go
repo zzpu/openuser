@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zzpu/openuser/courier/template"
-	"github.com/zzpu/openuser/internal"
+	"github.com/zzpu/ums/courier/template"
+	"github.com/zzpu/ums/internal"
 )
 
 func TestVerifyValid(t *testing.T) {

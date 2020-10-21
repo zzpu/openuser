@@ -1,4 +1,4 @@
-module github.com/zzpu/openuser/test/e2e/hydra-login-consent
+module github.com/zzpu/ums/test/e2e/hydra-login-consent
 
 go 1.14
 

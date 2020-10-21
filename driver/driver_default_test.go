@@ -11,8 +11,8 @@ import (
 	"github.com/ory/viper"
 	"github.com/ory/x/logrusx"
 
-	driver "github.com/zzpu/openuser/driver"
-	"github.com/zzpu/openuser/driver/configuration"
+	driver "github.com/zzpu/ums/driver"
+	"github.com/zzpu/ums/driver/configuration"
 )
 
 func TestDriverDefault_SQLiteMemoryMode(t *testing.T) {

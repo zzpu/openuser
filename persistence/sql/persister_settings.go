@@ -10,7 +10,7 @@ import (
 
 	"github.com/ory/x/sqlcon"
 
-	"github.com/zzpu/openuser/selfservice/flow/settings"
+	"github.com/zzpu/ums/selfservice/flow/settings"
 )
 
 var _ settings.FlowPersister = new(Persister)

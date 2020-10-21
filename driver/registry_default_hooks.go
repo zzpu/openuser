@@ -1,8 +1,8 @@
 package driver
 
 import (
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/selfservice/hook"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/selfservice/hook"
 )
 
 func (m *RegistryDefault) HookVerifier() *hook.Verifier {

@@ -245,7 +245,7 @@ headless API approach address many integration and UI issues, with ORY Kratos,
 predefined flows make it easy to implement a custom user interface for login,
 registration, profile management, account reset, etc. Furthermore, to make to
 very easy to get started there is a reference implementation
-[github.com/zzpu/openuser-selfservice-ui-node](https://github.com/zzpu/openuser-selfservice-ui-node).
+[github.com/zzpu/ums-selfservice-ui-node](https://github.com/zzpu/ums-selfservice-ui-node).
 
 For more details about each individual flow, consult the
 [Self-Service Flows Chapter](../self-service.mdx).

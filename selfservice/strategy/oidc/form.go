@@ -11,7 +11,7 @@ import (
 
 	"github.com/ory/x/decoderx"
 
-	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/ums/identity"
 )
 
 func decoderRegistration(ref string) (decoderx.HTTPDecoderOption, error) {

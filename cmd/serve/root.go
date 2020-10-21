@@ -19,9 +19,9 @@ import (
 	"strconv"
 
 	"github.com/ory/x/logrusx"
-	"github.com/zzpu/openuser/internal/clihelpers"
+	"github.com/zzpu/ums/internal/clihelpers"
 
-	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/ums/driver/configuration"
 
 	"github.com/ory/x/viperx"
 
@@ -29,9 +29,9 @@ import (
 
 	"github.com/ory/x/flagx"
 
-	"github.com/zzpu/openuser/cmd/daemon"
-	"github.com/zzpu/openuser/driver"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/cmd/daemon"
+	"github.com/zzpu/ums/driver"
+	"github.com/zzpu/ums/x"
 )
 
 var logger *logrusx.Logger

@@ -6,7 +6,7 @@ import (
 
 	"github.com/ory/jsonschema/v3"
 
-	"github.com/zzpu/openuser/schema"
+	"github.com/zzpu/ums/schema"
 )
 
 type SchemaExtensionRecovery struct {

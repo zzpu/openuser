@@ -6,17 +6,17 @@ import (
 
 	"github.com/gobuffalo/pop/v5"
 
-	"github.com/zzpu/openuser/continuity"
-	"github.com/zzpu/openuser/courier"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/errorx"
-	"github.com/zzpu/openuser/selfservice/flow/login"
-	"github.com/zzpu/openuser/selfservice/flow/recovery"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
-	"github.com/zzpu/openuser/selfservice/flow/settings"
-	"github.com/zzpu/openuser/selfservice/flow/verification"
-	"github.com/zzpu/openuser/selfservice/strategy/link"
-	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/ums/continuity"
+	"github.com/zzpu/ums/courier"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/errorx"
+	"github.com/zzpu/ums/selfservice/flow/login"
+	"github.com/zzpu/ums/selfservice/flow/recovery"
+	"github.com/zzpu/ums/selfservice/flow/registration"
+	"github.com/zzpu/ums/selfservice/flow/settings"
+	"github.com/zzpu/ums/selfservice/flow/verification"
+	"github.com/zzpu/ums/selfservice/strategy/link"
+	"github.com/zzpu/ums/session"
 )
 
 type Provider interface {

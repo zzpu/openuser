@@ -7,7 +7,7 @@ import (
 
 	"github.com/ory/jsonschema/v3"
 
-	"github.com/zzpu/openuser/text"
+	"github.com/zzpu/ums/text"
 )
 
 type ValidationError struct {

@@ -14,10 +14,10 @@ import (
 
 	"github.com/ory/herodot"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/selfservice/errorx"
-	"github.com/zzpu/openuser/session"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/selfservice/errorx"
+	"github.com/zzpu/ums/session"
+	"github.com/zzpu/ums/x"
 )
 
 func NewErrorTestServer(t *testing.T, reg interface{ errorx.PersistenceProvider }) *httptest.Server {

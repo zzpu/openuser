@@ -2,13 +2,12 @@ package x
 
 import (
 	"bytes"
-	"io"
-	"io/ioutil"
-	"os"
-
 	"github.com/gobuffalo/pop/v5"
 	"github.com/markbates/pkger"
 	"github.com/pkg/errors"
+	"io"
+	"io/ioutil"
+	"os"
 )
 
 // MigrationPkger is a wrapper around pkger.Dir and Migrator.
@@ -33,6 +32,7 @@ func NewPkgerMigration(dir pkger.Dir, c *pop.Connection) (MigrationPkger, error)
 		return func(mf pop.Migration, tx *pop.Connection) error {
 			content, err := pop.MigrationContent(mf, tx, f, true)
 			if err != nil {
+
 				return errors.Wrapf(err, "error processing %s", mf.Path)
 			}
 			if content == "" {

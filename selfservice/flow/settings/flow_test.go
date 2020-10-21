@@ -13,11 +13,11 @@ import (
 
 	"github.com/ory/x/urlx"
 
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/flow"
-	"github.com/zzpu/openuser/selfservice/flow/settings"
-	"github.com/zzpu/openuser/session"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/flow"
+	"github.com/zzpu/ums/selfservice/flow/settings"
+	"github.com/zzpu/ums/session"
+	"github.com/zzpu/ums/x"
 )
 
 func TestFakeFlow(t *testing.T) {

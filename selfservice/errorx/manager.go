@@ -7,7 +7,7 @@ import (
 
 	"github.com/ory/x/urlx"
 
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/x"
 )
 
 type (

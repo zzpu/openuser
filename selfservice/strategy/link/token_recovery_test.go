@@ -11,8 +11,8 @@ import (
 	"github.com/ory/x/stringslice"
 	"github.com/ory/x/urlx"
 
-	"github.com/zzpu/openuser/selfservice/flow"
-	"github.com/zzpu/openuser/selfservice/flow/recovery"
+	"github.com/zzpu/ums/selfservice/flow"
+	"github.com/zzpu/ums/selfservice/flow/recovery"
 )
 
 func TestRecoveryToken(t *testing.T) {

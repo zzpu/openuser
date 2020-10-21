@@ -15,13 +15,13 @@ import (
 	"github.com/ory/x/sqlxx"
 	"github.com/ory/x/urlx"
 
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/schema"
-	"github.com/zzpu/openuser/selfservice/flow"
-	"github.com/zzpu/openuser/selfservice/flow/verification"
-	"github.com/zzpu/openuser/selfservice/form"
-	"github.com/zzpu/openuser/text"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/schema"
+	"github.com/zzpu/ums/selfservice/flow"
+	"github.com/zzpu/ums/selfservice/flow/verification"
+	"github.com/zzpu/ums/selfservice/form"
+	"github.com/zzpu/ums/text"
+	"github.com/zzpu/ums/x"
 )
 
 const (

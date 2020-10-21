@@ -13,7 +13,7 @@ var (
 )
 
 const (
-	WarningJQIsComplicated = "We have to admit, this is not easy if you don't speak jq fluently. What about opening an issue and telling us what predefined selectors you want to have? https://github.com/zzpu/openuser/issues/new/choose"
+	WarningJQIsComplicated = "We have to admit, this is not easy if you don't speak jq fluently. What about opening an issue and telling us what predefined selectors you want to have? https://github.com/zzpu/ums/issues/new/choose"
 )
 
 func FailSilently(cmd *cobra.Command) error {

@@ -3,7 +3,7 @@ package template
 import (
 	"path/filepath"
 
-	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/ums/driver/configuration"
 )
 
 type TestStub struct {

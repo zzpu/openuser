@@ -1,9 +1,9 @@
 package driver
 
 import (
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/flow/verification"
-	"github.com/zzpu/openuser/selfservice/strategy/link"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/flow/verification"
+	"github.com/zzpu/ums/selfservice/strategy/link"
 )
 
 func (m *RegistryDefault) VerificationFlowPersister() verification.FlowPersister {

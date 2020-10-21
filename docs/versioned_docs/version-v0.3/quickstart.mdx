@@ -148,14 +148,14 @@ start!
 
 If you encounter build errors (e.g. network timeout), make sure that the network
 is running correctly and run `make docker` again. If the problem persists, feel
-free to [open an issue](https://github.com/zzpu/openuser/issues/new/choose).
+free to [open an issue](https://github.com/zzpu/ums/issues/new/choose).
 
 :::
 
 Let's clone ORY Kratos and run `docker-compose`:
 
 ```shell script
-git clone https://github.com/zzpu/openuser.git
+git clone https://github.com/zzpu/ums.git
 # or if you have git+ssh set up:
 #  git clone git@github.com:ory/kratos.git
 cd kratos
@@ -198,9 +198,9 @@ in. Future guides will explain how to set up a production system!
 
 This demo makes use of several services / Docker Images:
 
-1. [ORY Kratos](https://github.com/zzpu/openuser)
+1. [ORY Kratos](https://github.com/zzpu/ums)
 2. The **SecureApp** - an
-   [example application written in NodeJS](http://github.com/zzpu/openuser-selfservice-ui-node)
+   [example application written in NodeJS](http://github.com/zzpu/ums-selfservice-ui-node)
    that implements the login, registration, logout, ..., and dashboard screen.
 3. An SMTP server with which ORY Kratos can send E-Mails with. We will use
    [MailHog](https://github.com/mailhog/MailHog), a minimalistic SMTP throaway

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zzpu/openuser/internal/clihelpers"
+	"github.com/zzpu/ums/internal/clihelpers"
 
 	"github.com/spf13/cobra"
 
-	"github.com/zzpu/openuser/cmd/cliclient"
-	"github.com/zzpu/openuser/internal/httpclient/client/admin"
+	"github.com/zzpu/ums/cmd/cliclient"
+	"github.com/zzpu/ums/internal/httpclient/client/admin"
 )
 
 var deleteCmd = &cobra.Command{

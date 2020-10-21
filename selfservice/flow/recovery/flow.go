@@ -13,10 +13,10 @@ import (
 
 	"github.com/ory/x/sqlxx"
 
-	"github.com/zzpu/openuser/selfservice/flow"
-	"github.com/zzpu/openuser/selfservice/form"
-	"github.com/zzpu/openuser/text"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/selfservice/flow"
+	"github.com/zzpu/ums/selfservice/form"
+	"github.com/zzpu/ums/text"
+	"github.com/zzpu/ums/x"
 )
 
 // A Recovery Flow

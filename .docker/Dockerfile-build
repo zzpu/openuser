@@ -2,7 +2,7 @@ FROM golang:1.15-alpine AS builder
 
 RUN apk -U --no-cache add build-base git gcc bash
 
-WORKDIR /go/src/github.com/zzpu/openuser
+WORKDIR /go/src/github.com/zzpu/ums
 
 ADD go.mod go.mod
 ADD go.sum go.sum
@@ -14,7 +14,7 @@ RUN go mod download
 
 ADD . .
 
-RUN make pack && go build -tags sqlite -o /usr/bin/kratos
+RUN make pack && go build -tags mysql -o /usr/bin/ums
 
 FROM alpine:3.12
 
@@ -22,7 +22,7 @@ RUN addgroup -S ory; \
     adduser -S ory -G ory -D  -h /home/ory -s /bin/nologin; \
     chown -R ory:ory /home/ory
 
-COPY --from=builder /usr/bin/kratos /usr/bin/kratos
+COPY --from=builder /usr/bin/ums /usr/bin/ums
 
 # By creating the sqlite folder as the ory user, the mounted volume will be owned by ory:ory, which
 # is required for read/write of SQLite.
@@ -39,5 +39,5 @@ EXPOSE 4433 4434
 
 USER ory
 
-ENTRYPOINT ["kratos"]
+ENTRYPOINT ["ums"]
 CMD ["serve"]

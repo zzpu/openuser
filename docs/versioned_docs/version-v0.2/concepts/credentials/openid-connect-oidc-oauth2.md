@@ -6,7 +6,7 @@ title: Social Sign In, OpenID Connect, and OAuth2
 :::info
 
 OpenID Connect is undergoing active refactoring and these docs will change. See
-[#381](https://github.com/zzpu/openuser/pull/381).
+[#381](https://github.com/zzpu/ums/pull/381).
 
 :::
 

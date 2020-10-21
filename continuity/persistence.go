@@ -12,8 +12,8 @@ import (
 	"github.com/ory/x/sqlcon"
 	"github.com/ory/x/sqlxx"
 
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/x"
 )
 
 type PersistenceProvider interface {

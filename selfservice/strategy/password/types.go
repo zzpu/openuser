@@ -1,6 +1,6 @@
 package password
 
-import "github.com/zzpu/openuser/selfservice/form"
+import "github.com/zzpu/ums/selfservice/form"
 
 type (
 	// CredentialsConfig is the struct that is being used as part of the identity credentials.

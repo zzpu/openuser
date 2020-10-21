@@ -13,8 +13,8 @@ import (
 	"github.com/ory/jsonschema/v3"
 	"github.com/ory/x/errorsx"
 
-	"github.com/zzpu/openuser/courier"
-	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/ums/courier"
+	"github.com/zzpu/ums/driver/configuration"
 )
 
 var ErrProtectedFieldModified = herodot.ErrForbidden.

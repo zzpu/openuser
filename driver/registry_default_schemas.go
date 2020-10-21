@@ -3,7 +3,7 @@ package driver
 import (
 	"net/url"
 
-	"github.com/zzpu/openuser/schema"
+	"github.com/zzpu/ums/schema"
 )
 
 func (m *RegistryDefault) IdentityTraitsSchemas() schema.Schemas {

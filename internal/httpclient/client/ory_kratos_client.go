@@ -10,10 +10,10 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/zzpu/openuser/internal/httpclient/client/admin"
-	"github.com/zzpu/openuser/internal/httpclient/client/health"
-	"github.com/zzpu/openuser/internal/httpclient/client/public"
-	"github.com/zzpu/openuser/internal/httpclient/client/version"
+	"github.com/zzpu/ums/internal/httpclient/client/admin"
+	"github.com/zzpu/ums/internal/httpclient/client/health"
+	"github.com/zzpu/ums/internal/httpclient/client/public"
+	"github.com/zzpu/ums/internal/httpclient/client/version"
 )
 
 // Default ory kratos HTTP client.

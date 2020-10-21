@@ -22,7 +22,7 @@ context('Registration', () => {
     })
 
     xit('sends the warning email on double sign up', () => {
-      // FIXME https://github.com/zzpu/openuser/issues/133
+      // FIXME https://github.com/zzpu/ums/issues/133
       cy.clearCookies()
       cy.register({ email, password: up(password) })
 

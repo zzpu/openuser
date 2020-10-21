@@ -1,7 +1,7 @@
 package driver
 
 import (
-	"github.com/zzpu/openuser/selfservice/flow/recovery"
+	"github.com/zzpu/ums/selfservice/flow/recovery"
 )
 
 func (m *RegistryDefault) RecoveryFlowErrorHandler() *recovery.ErrorHandler {

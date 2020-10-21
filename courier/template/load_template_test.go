@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/x"
 )
 
 func TestLoadTextTemplate(t *testing.T) {

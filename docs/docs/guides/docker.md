@@ -5,8 +5,8 @@ title: Docker Images
 
 ## Supported tags and respective `Dockerfile` links
 
-- [`latest`, `v0.4.3-alpha.1`, `v0.4.3`, `v0.4`, `v0`](https://github.com/zzpu/openuser/blob/v0.4.3-alpha.1/.docker/Dockerfile)
-- [`latest-sqlite`, `v0.4.3-alpha.1-sqlite`, `v0.4.3-sqlite`, `v0.4-sqlite`, `v0-sqlite`](https://github.com/zzpu/openuser/blob/v0.4.3-alpha.1/.docker/Dockerfile-sqlite)
+- [`latest`, `v0.4.3-alpha.1`, `v0.4.3`, `v0.4`, `v0`](https://github.com/zzpu/ums/blob/v0.4.3-alpha.1/.docker/Dockerfile)
+- [`latest-sqlite`, `v0.4.3-alpha.1-sqlite`, `v0.4.3-sqlite`, `v0.4-sqlite`, `v0-sqlite`](https://github.com/zzpu/ums/blob/v0.4.3-alpha.1/.docker/Dockerfile-sqlite)
 
 ## Image Variants
 

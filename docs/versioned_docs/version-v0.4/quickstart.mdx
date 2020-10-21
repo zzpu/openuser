@@ -166,14 +166,14 @@ start!
 
 If you encounter build errors (e.g. network timeout), make sure that the network
 is running correctly and run `make docker` again. If the problem persists, feel
-free to [open an issue](https://github.com/zzpu/openuser/issues/new/choose).
+free to [open an issue](https://github.com/zzpu/ums/issues/new/choose).
 
 :::
 
 Let's clone ORY Kratos and run `docker-compose`:
 
 ```shell script
-git clone https://github.com/zzpu/openuser.git
+git clone https://github.com/zzpu/ums.git
 cd kratos
 git checkout v0.4.6-alpha.1
 
@@ -214,12 +214,12 @@ Future guides will explain how to set up a production system.
 
 This demo makes use of several services:
 
-1. [ORY Kratos](https://github.com/zzpu/openuser)
+1. [ORY Kratos](https://github.com/zzpu/ums)
 
 - Public ("Browser") API (port 4433)
 - Admin API (port 4434) - This is only made public so we can test via the CLI.
 
-2. [SecureApp](http://github.com/zzpu/openuser-selfservice-ui-node)
+2. [SecureApp](http://github.com/zzpu/ums-selfservice-ui-node)
 
 - Public (port 4455) - an example application written in NodeJS that implements
   the login, registration, logout, dashboard, and other UIs.
@@ -297,13 +297,13 @@ Looking at the network stack, you can see two redirects happening:
 Here's a play-by-play of what happened:
 
 1. SecureApp used the ORY Kratos JavaScript language client to
-   [guard the `/dashboard`](https://github.com/zzpu/openuser-selfservice-ui-node/blob/v0.4.6-alpha.1/src/index.ts#L111)
+   [guard the `/dashboard`](https://github.com/zzpu/ums-selfservice-ui-node/blob/v0.4.6-alpha.1/src/index.ts#L111)
    route. The ORY Kratos client checked the cookies from the request and saw you
    were not logged in.
 2. The route guard redirected you from `/dashboard` to `/auth/login`. ORY
    Kratos' browser API requires a `request-id` in order to log you in. It looked
    for this ID in the URL as a query parameter but
-   [couldn't find it](https://github.com/zzpu/openuser-selfservice-ui-node/blob/2f097b519644d2663e277398213aaa1103b74cf9/src/routes/auth.ts#L26),
+   [couldn't find it](https://github.com/zzpu/ums-selfservice-ui-node/blob/2f097b519644d2663e277398213aaa1103b74cf9/src/routes/auth.ts#L26),
    so it decided to generate one for you.
 3. `/auth/login` redirected you to
    `/.ory/kratos/public/self-service/browser/flows/login`, which is one of ORY
@@ -579,11 +579,11 @@ recovery, head over to the
 #### Configuration
 
 You can find all configuration files used for this quickstart guide in
-[`./contrib/quickstart/kratos`](https://github.com/zzpu/openuser/tree/v0.4.6-alpha.1/contrib/quickstart/kratos/email-password)
+[`./contrib/quickstart/kratos`](https://github.com/zzpu/ums/tree/v0.4.6-alpha.1/contrib/quickstart/kratos/email-password)
 ,
-[`./quickstart.yml`](https://github.com/zzpu/openuser/blob/v0.4.6-alpha.1/quickstart.yml),
+[`./quickstart.yml`](https://github.com/zzpu/ums/blob/v0.4.6-alpha.1/quickstart.yml),
 and
-[`./quickstart-standalone.yml`](https://github.com/zzpu/openuser/blob/v0.4.6-alpha.1/quickstart-standalone.yml).
+[`./quickstart-standalone.yml`](https://github.com/zzpu/ums/blob/v0.4.6-alpha.1/quickstart-standalone.yml).
 To understand what each of those configuration files does, consult the other
 chapters of this documentation.
 
@@ -591,11 +591,11 @@ chapters of this documentation.
 
 To get a minimal version of ORY Kratos running, you need to set configuration
 values for
-[`identity.default_schema_url`](https://github.com/zzpu/openuser/blob/v0.4.6-alpha.1/contrib/quickstart/kratos/email-password/.kratos.yml#L67)
+[`identity.default_schema_url`](https://github.com/zzpu/ums/blob/v0.4.6-alpha.1/contrib/quickstart/kratos/email-password/.kratos.yml#L67)
 and
-[`DSN`](https://github.com/zzpu/openuser/blob/v0.4.6-alpha.1/quickstart.yml#L42).
+[`DSN`](https://github.com/zzpu/ums/blob/v0.4.6-alpha.1/quickstart.yml#L42).
 You should also configure
-[`selfservice.flows.*.ui_url`](https://github.com/zzpu/openuser/blob/v0.4.6-alpha.1/contrib/quickstart/kratos/email-password/.kratos.yml#L40)
+[`selfservice.flows.*.ui_url`](https://github.com/zzpu/ums/blob/v0.4.6-alpha.1/contrib/quickstart/kratos/email-password/.kratos.yml#L40)
 or else Kratos will use fallback URLs.
 
 :::

@@ -3,8 +3,8 @@ package samples
 import (
   "fmt"
 
-  "github.com/zzpu/openuser-client-go/client/public"
-  "github.com/zzpu/openuser-client-go/client"
+  "github.com/zzpu/ums-client-go/client/public"
+  "github.com/zzpu/ums-client-go/client"
 )
 
 func main() {

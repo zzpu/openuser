@@ -15,11 +15,11 @@ import (
 
 	"github.com/ory/viper"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/internal"
-	"github.com/zzpu/openuser/selfservice/hook"
-	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/internal"
+	"github.com/zzpu/ums/selfservice/hook"
+	"github.com/zzpu/ums/session"
 )
 
 func init() {

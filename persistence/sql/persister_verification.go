@@ -11,8 +11,8 @@ import (
 
 	"github.com/ory/x/sqlcon"
 
-	"github.com/zzpu/openuser/selfservice/flow/verification"
-	"github.com/zzpu/openuser/selfservice/strategy/link"
+	"github.com/zzpu/ums/selfservice/flow/verification"
+	"github.com/zzpu/ums/selfservice/strategy/link"
 )
 
 var _ verification.FlowPersister = new(Persister)

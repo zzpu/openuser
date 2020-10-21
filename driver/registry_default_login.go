@@ -1,8 +1,8 @@
 package driver
 
 import (
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/flow/login"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/flow/login"
 )
 
 func (m *RegistryDefault) LoginHookExecutor() *login.HookExecutor {

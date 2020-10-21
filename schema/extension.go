@@ -10,7 +10,7 @@ import (
 
 	"github.com/ory/jsonschema/v3"
 
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/x"
 )
 
 var schemas = pkger.Dir("/schema/.schema")

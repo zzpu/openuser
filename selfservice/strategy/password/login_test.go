@@ -22,16 +22,16 @@ import (
 
 	"github.com/ory/viper"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/internal"
-	"github.com/zzpu/openuser/internal/httpclient/models"
-	"github.com/zzpu/openuser/internal/testhelpers"
-	"github.com/zzpu/openuser/schema"
-	"github.com/zzpu/openuser/selfservice/flow/login"
-	"github.com/zzpu/openuser/selfservice/strategy/password"
-	"github.com/zzpu/openuser/text"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/internal"
+	"github.com/zzpu/ums/internal/httpclient/models"
+	"github.com/zzpu/ums/internal/testhelpers"
+	"github.com/zzpu/ums/schema"
+	"github.com/zzpu/ums/selfservice/flow/login"
+	"github.com/zzpu/ums/selfservice/strategy/password"
+	"github.com/zzpu/ums/text"
+	"github.com/zzpu/ums/x"
 )
 
 func TestCompleteLogin(t *testing.T) {

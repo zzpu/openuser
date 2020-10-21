@@ -18,7 +18,7 @@ package migrate
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/zzpu/openuser/cmd/cliclient"
+	"github.com/zzpu/ums/cmd/cliclient"
 
 	"github.com/ory/x/logrusx"
 

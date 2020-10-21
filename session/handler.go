@@ -12,8 +12,8 @@ import (
 
 	"github.com/ory/herodot"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/x"
 )
 
 type (

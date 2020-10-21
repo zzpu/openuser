@@ -21,7 +21,7 @@ At present, there is no Open Source AUI for ORY Kratos.
 The SSUI shows screens such as "login", "Registration", "Update your profile",
 "Recover access to your account", and others. The following provides more
 reference for SSUI at
-[github.com/zzpu/openuser-selfservice-ui-node](https://github.com/zzpu/openuser-selfservice-ui-node).
+[github.com/zzpu/ums-selfservice-ui-node](https://github.com/zzpu/ums-selfservice-ui-node).
 
 The SSUI can be built in any programming language including Java, Node, or
 Python and can be run both a server or a end-user device for example a browser,
@@ -62,7 +62,7 @@ Each message has a layout of:
 
 We will list all messages, their contents, their contexts, and their IDs at a
 later stage. For now please check out the code in the
-[text module](https://github.com/zzpu/openuser/tree/master/text).
+[text module](https://github.com/zzpu/ums/tree/master/text).
 
 The message ID is a 7-digit number (`xyyzzzz`) where
 

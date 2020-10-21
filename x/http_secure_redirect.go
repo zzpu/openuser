@@ -12,7 +12,7 @@ import (
 	"github.com/ory/x/stringsx"
 	"github.com/ory/x/urlx"
 
-	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/ums/driver/configuration"
 )
 
 type secureRedirectOptions struct {

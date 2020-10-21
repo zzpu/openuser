@@ -112,7 +112,7 @@ responsible for rendering your Dashboards, Management Screens, and so on.
 Because Login and Registration are so similar, we can use one common piece of
 code to cover both. A functioning example of the code and approach used here can
 be found on
-[github.com/zzpu/openuser-selfservice-ui-node](https://github.com/zzpu/openuser-selfservice-ui-node).
+[github.com/zzpu/ums-selfservice-ui-node](https://github.com/zzpu/ums-selfservice-ui-node).
 
 The code example used here is universal and does not use an SDK because we want
 you to understand the fundamentals of how this flow works.

@@ -64,7 +64,7 @@ cover:
 
 .PHONY: mocks
 mocks: .bin/mockgen
-		mockgen -mock_names Manager=MockLoginExecutorDependencies -package internal -destination internal/hook_login_executor_dependencies.go github.com/zzpu/openuser/selfservice loginExecutorDependencies
+		mockgen -mock_names Manager=MockLoginExecutorDependencies -package internal -destination internal/hook_login_executor_dependencies.go github.com/zzpu/ums/selfservice loginExecutorDependencies
 
 .PHONY: install
 install: .bin/packr2 .bin/pack
@@ -103,7 +103,9 @@ quickstart:
 quickstart-dev:
 		docker build -f .docker/Dockerfile-build -t oryd/kratos:latest-sqlite .
 		docker-compose -f quickstart.yml -f quickstart-standalone.yml up --build --force-recreate
-
+ums-dev:
+		docker build -f .docker/Dockerfile-build -t oryd/kratos:latest-sqlite .
+		docker-compose -f quickstart.yml -f quickstart-standalone.yml up --build --force-recreate
 # Formats the code
 .PHONY: format
 format: .bin/goreturns

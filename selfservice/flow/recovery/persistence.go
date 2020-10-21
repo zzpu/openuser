@@ -12,11 +12,11 @@ import (
 
 	"github.com/ory/viper"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/form"
-	"github.com/zzpu/openuser/text"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/form"
+	"github.com/zzpu/ums/text"
+	"github.com/zzpu/ums/x"
 )
 
 type (

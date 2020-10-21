@@ -14,13 +14,13 @@ import (
 	"github.com/ory/viper"
 	"github.com/ory/x/pointerx"
 
-	"github.com/zzpu/openuser/driver"
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/internal/httpclient/client/public"
-	"github.com/zzpu/openuser/internal/httpclient/models"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/driver"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/internal/httpclient/client/public"
+	"github.com/zzpu/ums/internal/httpclient/models"
+	"github.com/zzpu/ums/selfservice/flow/registration"
+	"github.com/zzpu/ums/x"
 )
 
 func NewRegistrationUIFlowEchoServer(t *testing.T, reg driver.Registry) *httptest.Server {

@@ -21,7 +21,7 @@ Example: get the identities with the recovery email address at the domain "ory.s
 
 kratos identities get \$(kratos identities list --format json | jq -r 'map(select(.recovery_addresses[].value | endswith("@ory.sh"))) | .[].id')
 
-We have to admit, this is not easy if you don't speak jq fluently. What about opening an issue and telling us what predefined selectors you want to have? https://github.com/zzpu/openuser/issues/new/choose
+We have to admit, this is not easy if you don't speak jq fluently. What about opening an issue and telling us what predefined selectors you want to have? https://github.com/zzpu/ums/issues/new/choose
 
 ```
 kratos identities get <id-0 [id-1 ...]> [flags]

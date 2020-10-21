@@ -766,7 +766,7 @@ urls:
 
   ## Multi-Factor UI URL ##
   #
-  # URL where the Multi-Factor UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+  # URL where the Multi-Factor UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
   #
   # Default value: https://www.ory.sh/kratos/docs/fallback/mfa
   #
@@ -783,7 +783,7 @@ urls:
 
   ## Login UI URL ##
   #
-  # URL where the Login UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+  # URL where the Login UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
   #
   # Default value: https://www.ory.sh/kratos/docs/fallback/login
   #
@@ -800,7 +800,7 @@ urls:
 
   ## Settings UI URL ##
   #
-  # URL where the Settings UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+  # URL where the Settings UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
   #
   # Default value: https://www.ory.sh/kratos/docs/fallback/settings
   #
@@ -832,7 +832,7 @@ urls:
 
   ## Registration UI URL ##
   #
-  # URL where the Registration UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+  # URL where the Registration UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
   #
   # Default value: https://www.ory.sh/kratos/docs/fallback/registration
   #
@@ -849,7 +849,7 @@ urls:
 
   ## ORY Kratos Error UI URL ##
   #
-  # URL where the ORY Kratos Error UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+  # URL where the ORY Kratos Error UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
   #
   # Default value: https://www.ory.sh/kratos/docs/fallback/error
   #
@@ -866,7 +866,7 @@ urls:
 
   ## Verify UI URL ##
   #
-  # URL where the ORY Verify UI is hosted. This is the page where users activate and / or verify their email or telephone number. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+  # URL where the ORY Verify UI is hosted. This is the page where users activate and / or verify their email or telephone number. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
   #
   # Default value: https://www.ory.sh/kratos/docs/fallback/verify
   #

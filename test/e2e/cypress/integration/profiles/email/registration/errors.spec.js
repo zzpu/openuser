@@ -21,7 +21,7 @@ context('Registration Flow Errors', () => {
 
     cy.get('button[type="submit"]').click()
 
-    // FIXME https://github.com/zzpu/openuser/issues/91
+    // FIXME https://github.com/zzpu/ums/issues/91
     cy.get('html').should('contain.text', 'missing or invalid csrf_token value')
   })
 
@@ -88,7 +88,7 @@ context('Registration Flow Errors', () => {
     it('should show an error when the website is too short', () => {
       cy.get('input[name="traits.website"]').type('http://s')
 
-      // fixme https://github.com/zzpu/openuser/issues/368
+      // fixme https://github.com/zzpu/ums/issues/368
       cy.get('input[name="password"]').type(password)
 
       cy.get('button[type="submit"]').click()

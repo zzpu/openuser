@@ -74,12 +74,12 @@ Identities are
 - `created` - via API or self-service registration);
 - `updated` - via API or self-serfice settings, account recovery, ...;
 - `disabled` - not yet implemented, see
-  [#598](https://github.com/zzpu/openuser/issues/598);
+  [#598](https://github.com/zzpu/ums/issues/598);
 - `deleted` - via API or with a self-service flow (not yet implemented see
-  [#596](https://github.com/zzpu/openuser/issues/596)).
+  [#596](https://github.com/zzpu/ums/issues/596)).
 
 The identity state is therefore `active` or `disabled` (not yet implemented see
-[#598](https://github.com/zzpu/openuser/issues/598))
+[#598](https://github.com/zzpu/ums/issues/598))
 
 <Mermaid
 chart={`stateDiagram-v2 [*] --> Active: create Active --> Active: update Active --> Disabled: disable Disabled --> [*]: delete Disabled --> Active: enable`}

@@ -3,8 +3,8 @@ package hook
 import (
 	"net/http"
 
-	"github.com/zzpu/openuser/selfservice/flow/login"
-	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/ums/selfservice/flow/login"
+	"github.com/zzpu/ums/session"
 )
 
 var _ login.PostHookExecutor = new(SessionDestroyer)

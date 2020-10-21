@@ -3,8 +3,8 @@ package identities
 import (
 	"strings"
 
-	"github.com/zzpu/openuser/internal/clihelpers"
-	"github.com/zzpu/openuser/internal/httpclient/models"
+	"github.com/zzpu/ums/internal/clihelpers"
+	"github.com/zzpu/ums/internal/httpclient/models"
 )
 
 type (

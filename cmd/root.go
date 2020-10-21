@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zzpu/openuser/cmd/remote"
+	"github.com/zzpu/ums/cmd/remote"
 
 	"github.com/ory/x/cmdx"
-	"github.com/zzpu/openuser/cmd/identities"
-	"github.com/zzpu/openuser/cmd/jsonnet"
-	"github.com/zzpu/openuser/cmd/migrate"
-	"github.com/zzpu/openuser/cmd/serve"
-	"github.com/zzpu/openuser/internal/clihelpers"
+	"github.com/zzpu/ums/cmd/identities"
+	"github.com/zzpu/ums/cmd/jsonnet"
+	"github.com/zzpu/ums/cmd/migrate"
+	"github.com/zzpu/ums/cmd/serve"
+	"github.com/zzpu/ums/internal/clihelpers"
 
 	"github.com/ory/x/viperx"
 

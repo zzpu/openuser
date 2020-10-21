@@ -21,7 +21,7 @@ At present, there is no Open Source AUI for ORY Kratos.
 The SSUI shows screens such as "login", "Registration", "Update your profile",
 "Recover your account", and others. The following provides more reference for
 SSUI at
-[github.com/zzpu/openuser-selfservice-ui-node](https://github.com/zzpu/openuser-selfservice-ui-node).
+[github.com/zzpu/ums-selfservice-ui-node](https://github.com/zzpu/ums-selfservice-ui-node).
 
 The SSUI can be built in any programming language including Java, Node, or
 Python and can be run both a server or a end-user device for example a browser,

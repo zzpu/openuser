@@ -9,7 +9,7 @@ import (
 
 	"github.com/gofrs/uuid"
 
-	"github.com/zzpu/openuser/selfservice/form"
+	"github.com/zzpu/ums/selfservice/form"
 )
 
 // swagger:model verificationFlowMethod

@@ -12,7 +12,7 @@ import (
 
 	"github.com/ory/jsonschema/v3"
 
-	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/ums/driver/configuration"
 
 	"github.com/pkg/errors"
 

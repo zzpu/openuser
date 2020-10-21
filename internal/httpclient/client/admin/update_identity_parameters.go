@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/zzpu/openuser/internal/httpclient/models"
+	"github.com/zzpu/ums/internal/httpclient/models"
 )
 
 // NewUpdateIdentityParams creates a new UpdateIdentityParams object

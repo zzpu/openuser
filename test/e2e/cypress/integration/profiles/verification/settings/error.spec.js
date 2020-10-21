@@ -46,7 +46,7 @@ context('Settings', () => {
     })
 
     xit('should not update the traits until the email has been verified and the old email has accepted the change', () => {
-      // FIXME https://github.com/zzpu/openuser/issues/292
+      // FIXME https://github.com/zzpu/ums/issues/292
     })
   })
 })

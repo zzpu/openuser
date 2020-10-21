@@ -15,18 +15,18 @@ import (
 	_ "github.com/ory/jsonschema/v3/httploader"
 	"github.com/ory/x/decoderx"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/selfservice/flow"
-	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/selfservice/flow"
+	"github.com/zzpu/ums/session"
 
 	"github.com/ory/herodot"
 	"github.com/ory/x/urlx"
 
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/schema"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
-	"github.com/zzpu/openuser/selfservice/form"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/schema"
+	"github.com/zzpu/ums/selfservice/flow/registration"
+	"github.com/zzpu/ums/selfservice/form"
+	"github.com/zzpu/ums/x"
 )
 
 const (

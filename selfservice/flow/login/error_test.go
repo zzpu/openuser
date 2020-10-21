@@ -18,16 +18,16 @@ import (
 
 	"github.com/ory/herodot"
 
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/internal"
-	sdkp "github.com/zzpu/openuser/internal/httpclient/client/public"
-	"github.com/zzpu/openuser/internal/httpclient/models"
-	"github.com/zzpu/openuser/internal/testhelpers"
-	"github.com/zzpu/openuser/schema"
-	"github.com/zzpu/openuser/selfservice/flow"
-	"github.com/zzpu/openuser/selfservice/flow/login"
-	"github.com/zzpu/openuser/text"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/internal"
+	sdkp "github.com/zzpu/ums/internal/httpclient/client/public"
+	"github.com/zzpu/ums/internal/httpclient/models"
+	"github.com/zzpu/ums/internal/testhelpers"
+	"github.com/zzpu/ums/schema"
+	"github.com/zzpu/ums/selfservice/flow"
+	"github.com/zzpu/ums/selfservice/flow/login"
+	"github.com/zzpu/ums/text"
+	"github.com/zzpu/ums/x"
 )
 
 func TestHandleError(t *testing.T) {

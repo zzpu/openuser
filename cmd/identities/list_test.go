@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/internal/clihelpers"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/internal/clihelpers"
 )
 
 func TestListCmd(t *testing.T) {

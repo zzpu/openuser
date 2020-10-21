@@ -14,9 +14,9 @@ import (
 	"github.com/tidwall/gjson"
 
 	"github.com/ory/x/pointerx"
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/internal/clihelpers"
-	"github.com/zzpu/openuser/internal/httpclient/models"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/internal/clihelpers"
+	"github.com/zzpu/ums/internal/httpclient/models"
 )
 
 func TestImportCmd(t *testing.T) {

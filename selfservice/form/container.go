@@ -1,6 +1,6 @@
 package form
 
-import "github.com/zzpu/openuser/text"
+import "github.com/zzpu/ums/text"
 
 type Form interface {
 	ErrorParser

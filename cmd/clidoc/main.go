@@ -6,12 +6,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/zzpu/openuser/cmd/remote"
+	"github.com/zzpu/ums/cmd/remote"
 
 	"github.com/ory/x/clidoc"
 
-	"github.com/zzpu/openuser/cmd/identities"
-	"github.com/zzpu/openuser/cmd/jsonnet"
+	"github.com/zzpu/ums/cmd/identities"
+	"github.com/zzpu/ums/cmd/jsonnet"
 )
 
 func main() {

@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zzpu/openuser/courier"
+	"github.com/zzpu/ums/courier"
 )
 
 func CourierExpectMessage(t *testing.T, reg interface {

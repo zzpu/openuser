@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/zzpu/openuser/.schema/config.schema.json",
+  "$id": "https://github.com/zzpu/ums/.schema/config.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "ORY Kratos Configuration",
   "type": "object",
@@ -321,7 +321,7 @@
               "properties": {
                 "ui_url": {
                   "title": "URL of the Settings page.",
-                  "description": "URL where the Settings UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).",
+                  "description": "URL where the Settings UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).",
                   "type": "string",
                   "format": "uri-reference",
                   "examples": [
@@ -375,7 +375,7 @@
               "properties": {
                 "ui_url": {
                   "title": "Registration UI URL",
-                  "description": "URL where the Registration UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).",
+                  "description": "URL where the Registration UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).",
                   "type": "string",
                   "format": "uri-reference",
                   "examples": [
@@ -404,7 +404,7 @@
               "properties": {
                 "ui_url": {
                   "title": "Login UI URL",
-                  "description": "URL where the Login UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).",
+                  "description": "URL where the Login UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).",
                   "type": "string",
                   "format": "uri-reference",
                   "examples": [
@@ -440,7 +440,7 @@
                 },
                 "ui_url": {
                   "title": "Verify UI URL",
-                  "description": "URL where the ORY Verify UI is hosted. This is the page where users activate and / or verify their email or telephone number. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).",
+                  "description": "URL where the ORY Verify UI is hosted. This is the page where users activate and / or verify their email or telephone number. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).",
                   "type": "string",
                   "format": "uri-reference",
                   "examples": [
@@ -484,7 +484,7 @@
                 },
                 "ui_url": {
                   "title": "Recovery UI URL",
-                  "description": "URL where the ORY Recovery UI is hosted. This is the page where users request and complete account recovery. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).",
+                  "description": "URL where the ORY Recovery UI is hosted. This is the page where users request and complete account recovery. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).",
                   "type": "string",
                   "format": "uri-reference",
                   "examples": [
@@ -521,7 +521,7 @@
               "properties": {
                 "ui_url": {
                   "title": "ORY Kratos Error UI URL",
-                  "description": "URL where the ORY Kratos Error UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).",
+                  "description": "URL where the ORY Kratos Error UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).",
                   "type": "string",
                   "format": "uri-reference",
                   "examples": [

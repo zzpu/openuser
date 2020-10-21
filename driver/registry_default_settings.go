@@ -1,6 +1,6 @@
 package driver
 
-import "github.com/zzpu/openuser/selfservice/flow/settings"
+import "github.com/zzpu/ums/selfservice/flow/settings"
 
 func (m *RegistryDefault) PostSettingsPrePersistHooks(settingsType string) (b []settings.PostHookPrePersistExecutor) {
 	for _, v := range m.getHooks(settingsType, m.c.SelfServiceFlowSettingsAfterHooks(settingsType)) {

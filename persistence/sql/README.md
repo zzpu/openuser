@@ -27,4 +27,4 @@ aforementioned databases.
 Because migrations needs to be backwards compatible, and because fizz migrations might change, we render
 fizz migrations to raw SQL statements using `make migrations-render`.
 
-The concrete migrations being applied can be found in [`./migrations/sql`](./migrations/sql).
+The concrete migrations being applied can be found in [`./migrations/sql`](migrations/sql_bak).

@@ -8,8 +8,8 @@ import (
 	"github.com/ory/x/pointerx"
 	"github.com/ory/x/urlx"
 
-	"github.com/zzpu/openuser/internal/httpclient/client"
-	"github.com/zzpu/openuser/internal/httpclient/models"
+	"github.com/zzpu/ums/internal/httpclient/client"
+	"github.com/zzpu/ums/internal/httpclient/models"
 )
 
 func NewSDKClient(ts *httptest.Server) *client.OryKratos {

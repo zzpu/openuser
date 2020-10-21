@@ -1,4 +1,4 @@
-module github.com/zzpu/openuser
+module github.com/zzpu/ums
 
 go 1.14
 
@@ -78,8 +78,10 @@ require (
 	github.com/tidwall/gjson v1.3.5
 	github.com/tidwall/sjson v1.0.4
 	github.com/urfave/negroni v1.0.0
+	go.uber.org/zap v1.10.0
 	golang.org/x/crypto v0.0.0-20200709230013-948cd5f35899
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	golang.org/x/tools v0.0.0-20200717024301-6ddee64345a6
 	gopkg.in/go-playground/validator.v9 v9.28.0
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 )

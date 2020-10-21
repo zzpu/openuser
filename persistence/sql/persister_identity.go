@@ -10,9 +10,9 @@ import (
 	"github.com/ory/jsonschema/v3"
 	"github.com/ory/x/sqlxx"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/otp"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/otp"
+	"github.com/zzpu/ums/x"
 
 	"github.com/gobuffalo/pop/v5"
 	"github.com/gofrs/uuid"
@@ -22,7 +22,7 @@ import (
 	"github.com/ory/x/errorsx"
 	"github.com/ory/x/sqlcon"
 
-	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/ums/identity"
 )
 
 var _ identity.Pool = new(Persister)

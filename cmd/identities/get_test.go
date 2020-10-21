@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/x"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/identity"
 )
 
 func TestGetCmd(t *testing.T) {

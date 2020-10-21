@@ -4,4 +4,4 @@ title: MFA / 2FA
 ---
 
 This feature is a work in progress and is being tracked in
-[issue #26](https://github.com/zzpu/openuser/issues/26).
+[issue #26](https://github.com/zzpu/ums/issues/26).

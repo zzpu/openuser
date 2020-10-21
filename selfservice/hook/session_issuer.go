@@ -6,10 +6,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/zzpu/openuser/selfservice/flow"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
-	"github.com/zzpu/openuser/session"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/selfservice/flow"
+	"github.com/zzpu/ums/selfservice/flow/registration"
+	"github.com/zzpu/ums/session"
+	"github.com/zzpu/ums/x"
 )
 
 var (

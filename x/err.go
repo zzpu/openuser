@@ -10,7 +10,7 @@ import (
 var PseudoPanic = herodot.DefaultError{
 	StatusField: http.StatusText(http.StatusInternalServerError),
 	ErrorField:  "Code Bug Detected",
-	ReasonField: "The code ended up at a place where it should not have. Please report this as an issue at https://github.com/zzpu/openuser",
+	ReasonField: "The code ended up at a place where it should not have. Please report this as an issue at https://github.com/zzpu/ums",
 	CodeField:   http.StatusConflict,
 }
 

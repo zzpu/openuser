@@ -3,7 +3,7 @@ package identity
 import (
 	"testing"
 
-	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/ums/driver/configuration"
 
 	"github.com/stretchr/testify/assert"
 )

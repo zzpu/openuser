@@ -58,7 +58,7 @@ You can install ORY Kratos using [scoop](https://scoop.sh) on Windows:
 ## Download Binaries
 
 The client and server binaries are downloadable at the
-[releases tab](https://github.com/zzpu/openuser/releases). There is currently no
+[releases tab](https://github.com/zzpu/ums/releases). There is currently no
 installer available. You have to add the Kratos binary to the PATH environment
 variable yourself or put the binary in a location that is already in your
 `$PATH` (e.g. `/usr/local/bin`).
@@ -79,8 +79,8 @@ compile it, and set up flags so that `kratos version` works as expected. Please
 note that this will only work with POSIX-compliant shells like `bash` or `sh`.
 
 ```shell
-$ go get -d -u github.com/zzpu/openuser
-$ cd $(go env GOPATH)/src/github.com/zzpu/openuser
+$ go get -d -u github.com/zzpu/ums
+$ cd $(go env GOPATH)/src/github.com/zzpu/ums
 $ GO111MODULE=on make install
 $ $(go env GOPATH)/bin/kratos help
 ```

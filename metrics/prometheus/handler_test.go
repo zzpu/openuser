@@ -8,10 +8,10 @@ import (
 	"github.com/prometheus/common/expfmt"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zzpu/openuser/metrics/prometheus"
+	"github.com/zzpu/ums/metrics/prometheus"
 
-	"github.com/zzpu/openuser/internal"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/internal"
+	"github.com/zzpu/ums/x"
 )
 
 func TestHandler(t *testing.T) {

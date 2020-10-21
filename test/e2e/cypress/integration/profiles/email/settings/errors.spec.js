@@ -23,7 +23,7 @@ context('Settings Flow Errors', () => {
     cy.register({
       email: emailSecond,
       password: passwordSecond,
-      fields: { 'traits.website': 'https://github.com/zzpu/openuser' },
+      fields: { 'traits.website': 'https://github.com/zzpu/ums' },
     })
     cy.clearCookies()
     cy.register({ email, password, fields: { 'traits.website': website } })
@@ -41,7 +41,7 @@ context('Settings Flow Errors', () => {
 
     cy.get('#user-profile button[type="submit"]').click()
 
-    // FIXME https://github.com/zzpu/openuser/issues/91
+    // FIXME https://github.com/zzpu/ums/issues/91
     cy.get('html').should('contain.text', 'CSRF token is missing or invalid')
   })
 

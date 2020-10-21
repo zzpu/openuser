@@ -14,7 +14,7 @@ import (
 	"github.com/ory/herodot"
 	"github.com/ory/x/sqlcon"
 
-	"github.com/zzpu/openuser/selfservice/errorx"
+	"github.com/zzpu/ums/selfservice/errorx"
 )
 
 var _ errorx.Persister = new(Persister)

@@ -24,17 +24,17 @@ import (
 	"github.com/gobuffalo/pop/v5"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zzpu/openuser/driver"
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/internal/testhelpers"
-	"github.com/zzpu/openuser/selfservice/flow/login"
-	"github.com/zzpu/openuser/selfservice/flow/recovery"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
-	"github.com/zzpu/openuser/selfservice/flow/settings"
-	"github.com/zzpu/openuser/selfservice/flow/verification"
-	"github.com/zzpu/openuser/selfservice/strategy/link"
-	"github.com/zzpu/openuser/session"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/driver"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/internal/testhelpers"
+	"github.com/zzpu/ums/selfservice/flow/login"
+	"github.com/zzpu/ums/selfservice/flow/recovery"
+	"github.com/zzpu/ums/selfservice/flow/registration"
+	"github.com/zzpu/ums/selfservice/flow/settings"
+	"github.com/zzpu/ums/selfservice/flow/verification"
+	"github.com/zzpu/ums/selfservice/strategy/link"
+	"github.com/zzpu/ums/session"
+	"github.com/zzpu/ums/x"
 )
 
 func TestMigrations(t *testing.T) {

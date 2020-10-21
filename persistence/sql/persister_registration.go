@@ -8,8 +8,8 @@ import (
 
 	"github.com/ory/x/sqlcon"
 
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/flow/registration"
 )
 
 func (p *Persister) CreateRegistrationFlow(ctx context.Context, r *registration.Flow) error {

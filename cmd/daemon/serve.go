@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zzpu/openuser/metrics/prometheus"
+	"github.com/zzpu/ums/metrics/prometheus"
 
 	"github.com/ory/analytics-go/v4"
 
@@ -19,20 +19,20 @@ import (
 	"github.com/ory/graceful"
 	"github.com/ory/x/metricsx"
 
-	"github.com/zzpu/openuser/driver"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/errorx"
-	"github.com/zzpu/openuser/selfservice/flow/login"
-	"github.com/zzpu/openuser/selfservice/flow/logout"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
-	"github.com/zzpu/openuser/selfservice/flow/settings"
-	"github.com/zzpu/openuser/selfservice/flow/verification"
-	"github.com/zzpu/openuser/selfservice/strategy/link"
-	"github.com/zzpu/openuser/selfservice/strategy/oidc"
-	"github.com/zzpu/openuser/selfservice/strategy/password"
-	"github.com/zzpu/openuser/selfservice/strategy/profile"
-	"github.com/zzpu/openuser/session"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/driver"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/errorx"
+	"github.com/zzpu/ums/selfservice/flow/login"
+	"github.com/zzpu/ums/selfservice/flow/logout"
+	"github.com/zzpu/ums/selfservice/flow/registration"
+	"github.com/zzpu/ums/selfservice/flow/settings"
+	"github.com/zzpu/ums/selfservice/flow/verification"
+	"github.com/zzpu/ums/selfservice/strategy/link"
+	"github.com/zzpu/ums/selfservice/strategy/oidc"
+	"github.com/zzpu/ums/selfservice/strategy/password"
+	"github.com/zzpu/ums/selfservice/strategy/profile"
+	"github.com/zzpu/ums/session"
+	"github.com/zzpu/ums/x"
 )
 
 func servePublic(d driver.Driver, wg *sync.WaitGroup, cmd *cobra.Command, args []string) {

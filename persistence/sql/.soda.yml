@@ -8,7 +8,7 @@ postgres:
   url: postgres://a/b
 
 mysql:
-  url: mysql://tcp(a)/b?parseTime=true&multiStatements=true
+  url: mysql://root:rank$$123@tcp(47.115.166.195:3306)/ums?max_conns=20&max_idle_conns=4&parseTime=true&loc=Local
 
 cockroach:
   url: crdb://a/b

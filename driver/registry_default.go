@@ -6,20 +6,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zzpu/openuser/metrics/prometheus"
+	"github.com/zzpu/ums/metrics/prometheus"
 
 	"github.com/gobuffalo/pop/v5"
 
-	"github.com/zzpu/openuser/continuity"
-	"github.com/zzpu/openuser/hash"
-	"github.com/zzpu/openuser/schema"
-	"github.com/zzpu/openuser/selfservice/flow/recovery"
-	"github.com/zzpu/openuser/selfservice/flow/settings"
-	"github.com/zzpu/openuser/selfservice/flow/verification"
-	"github.com/zzpu/openuser/selfservice/hook"
-	"github.com/zzpu/openuser/selfservice/strategy/link"
-	"github.com/zzpu/openuser/selfservice/strategy/profile"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/continuity"
+	"github.com/zzpu/ums/hash"
+	"github.com/zzpu/ums/schema"
+	"github.com/zzpu/ums/selfservice/flow/recovery"
+	"github.com/zzpu/ums/selfservice/flow/settings"
+	"github.com/zzpu/ums/selfservice/flow/verification"
+	"github.com/zzpu/ums/selfservice/hook"
+	"github.com/zzpu/ums/selfservice/strategy/link"
+	"github.com/zzpu/ums/selfservice/strategy/profile"
+	"github.com/zzpu/ums/x"
 
 	"github.com/cenkalti/backoff"
 	"github.com/gorilla/sessions"
@@ -33,21 +33,21 @@ import (
 
 	"github.com/ory/x/logrusx"
 
-	"github.com/zzpu/openuser/courier"
-	"github.com/zzpu/openuser/persistence"
-	"github.com/zzpu/openuser/persistence/sql"
-	"github.com/zzpu/openuser/selfservice/flow/login"
-	"github.com/zzpu/openuser/selfservice/flow/logout"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
-	"github.com/zzpu/openuser/selfservice/strategy/oidc"
+	"github.com/zzpu/ums/courier"
+	"github.com/zzpu/ums/persistence"
+	"github.com/zzpu/ums/persistence/sql"
+	"github.com/zzpu/ums/selfservice/flow/login"
+	"github.com/zzpu/ums/selfservice/flow/logout"
+	"github.com/zzpu/ums/selfservice/flow/registration"
+	"github.com/zzpu/ums/selfservice/strategy/oidc"
 
 	"github.com/ory/herodot"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/errorx"
-	password2 "github.com/zzpu/openuser/selfservice/strategy/password"
-	"github.com/zzpu/openuser/session"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/errorx"
+	password2 "github.com/zzpu/ums/selfservice/strategy/password"
+	"github.com/zzpu/ums/session"
 )
 
 var _ Registry = new(RegistryDefault)
@@ -349,7 +349,9 @@ func (m *RegistryDefault) Writer() herodot.Writer {
 func (m *RegistryDefault) Logger() *logrusx.Logger {
 	if m.l == nil {
 		m.l = logrusx.New("ORY Kratos", m.BuildVersion())
+		m.l.Logger.AddHook(NewContextHook())
 	}
+	m.l.Logger.AddHook(NewContextHook())
 	return m.l
 }
 
@@ -500,6 +502,7 @@ func (m *RegistryDefault) Init() error {
 				m.Logger().WithError(err).Warnf("Unable to open database, retrying.")
 				return errors.WithStack(err)
 			}
+
 			p, err := sql.NewPersister(m, m.c, c)
 			if err != nil {
 				m.Logger().WithError(err).Warnf("Unable to initialize persister, retrying.")

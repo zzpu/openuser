@@ -3,8 +3,8 @@ package identity
 import (
 	"github.com/tidwall/sjson"
 
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/schema"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/schema"
 )
 
 type (

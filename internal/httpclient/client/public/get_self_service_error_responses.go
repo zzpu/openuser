@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/zzpu/openuser/internal/httpclient/models"
+	"github.com/zzpu/ums/internal/httpclient/models"
 )
 
 // GetSelfServiceErrorReader is a Reader for the GetSelfServiceError structure.

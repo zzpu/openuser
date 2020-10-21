@@ -12,8 +12,8 @@ import (
 	"github.com/ory/herodot"
 	"github.com/ory/x/sqlcon"
 
-	"github.com/zzpu/openuser/session"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/session"
+	"github.com/zzpu/ums/x"
 )
 
 var _ Manager = new(ManagerCookie)

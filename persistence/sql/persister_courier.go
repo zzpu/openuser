@@ -9,7 +9,7 @@ import (
 
 	"github.com/ory/x/sqlcon"
 
-	"github.com/zzpu/openuser/courier"
+	"github.com/zzpu/ums/courier"
 )
 
 var _ courier.Persister = new(Persister)

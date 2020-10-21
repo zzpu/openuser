@@ -8,9 +8,9 @@ import (
 
 	"github.com/ory/x/randx"
 
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/flow/verification"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/flow/verification"
+	"github.com/zzpu/ums/x"
 )
 
 type VerificationToken struct {

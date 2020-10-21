@@ -13,7 +13,7 @@ import (
 
 	_ "github.com/ory/jsonschema/v3/fileloader"
 
-	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/ums/driver/configuration"
 
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"

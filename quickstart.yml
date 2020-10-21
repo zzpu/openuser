@@ -4,7 +4,7 @@ services:
   kratos-migrate:
     image: oryd/kratos:latest-sqlite
     environment:
-      - DSN=sqlite:///var/lib/sqlite/db.sqlite?_fk=true&mode=rwc
+      - DSN=mysql://root:rank$$123@tcp(47.115.166.195:3306)/ums?max_conns=20&max_idle_conns=4&parseTime=true&loc=Local
     volumes:
       -
         type: volume
@@ -39,7 +39,7 @@ services:
       - "4434:4434" # admin
     restart: unless-stopped
     environment:
-      - DSN=sqlite:///var/lib/sqlite/db.sqlite?_fk=true
+      - DSN=mysql://root:rank$$123@tcp(47.115.166.195:3306)/ums?max_conns=20&max_idle_conns=4&parseTime=true&loc=Local
       - LOG_LEVEL=trace
     command:
       serve -c /etc/config/kratos/kratos.yml --dev

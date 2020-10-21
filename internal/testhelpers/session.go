@@ -9,10 +9,10 @@ import (
 	"github.com/gobuffalo/httptest"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zzpu/openuser/driver"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/session"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/driver"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/session"
+	"github.com/zzpu/ums/x"
 )
 
 type SessionLifespanProvider struct {

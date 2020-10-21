@@ -10,7 +10,7 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/zzpu/openuser/identity"
+	"github.com/zzpu/ums/identity"
 )
 
 type ManagementProvider interface {

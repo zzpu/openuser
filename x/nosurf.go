@@ -79,14 +79,7 @@ type CSRFHandler interface {
 	ExemptPath(string)
 }
 
-func NewCSRFHandler(
-	router http.Handler,
-	writer herodot.Writer,
-	logger *logrusx.Logger,
-	path string,
-	domain string,
-	secure bool,
-) *nosurf.CSRFHandler {
+func NewCSRFHandler(router http.Handler, writer herodot.Writer, logger *logrusx.Logger, path string, domain string, secure bool) *nosurf.CSRFHandler {
 	n := nosurf.New(router)
 	n.SetBaseCookie(http.Cookie{
 		MaxAge:   nosurf.MaxAge,

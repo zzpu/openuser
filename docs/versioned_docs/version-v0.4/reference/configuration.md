@@ -137,7 +137,7 @@ selfservice:
 
       ## URL of the Settings page. ##
       #
-      # URL where the Settings UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+      # URL where the Settings UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
       #
       # Default value: https://www.ory.sh/kratos/docs/fallback/settings
       #
@@ -294,7 +294,7 @@ selfservice:
 
       ## Registration UI URL ##
       #
-      # URL where the Registration UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+      # URL where the Registration UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
       #
       # Default value: https://www.ory.sh/kratos/docs/fallback/registration
       #
@@ -411,7 +411,7 @@ selfservice:
 
       ## Login UI URL ##
       #
-      # URL where the Login UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+      # URL where the Login UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
       #
       # Default value: https://www.ory.sh/kratos/docs/fallback/login
       #
@@ -542,7 +542,7 @@ selfservice:
 
       ## Verify UI URL ##
       #
-      # URL where the ORY Verify UI is hosted. This is the page where users activate and / or verify their email or telephone number. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+      # URL where the ORY Verify UI is hosted. This is the page where users activate and / or verify their email or telephone number. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
       #
       # Default value: https://www.ory.sh/kratos/docs/fallback/verification
       #
@@ -615,7 +615,7 @@ selfservice:
 
       ## Recovery UI URL ##
       #
-      # URL where the ORY Recovery UI is hosted. This is the page where users request and complete account recovery. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+      # URL where the ORY Recovery UI is hosted. This is the page where users request and complete account recovery. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
       #
       # Default value: https://www.ory.sh/kratos/docs/fallback/recovery
       #
@@ -674,7 +674,7 @@ selfservice:
 
       ## ORY Kratos Error UI URL ##
       #
-      # URL where the ORY Kratos Error UI is hosted. Check the [reference implementation](https://github.com/zzpu/openuser-selfservice-ui-node).
+      # URL where the ORY Kratos Error UI is hosted. Check the [reference implementation](https://github.com/zzpu/ums-selfservice-ui-node).
       #
       # Default value: https://www.ory.sh/kratos/docs/fallback/error
       #

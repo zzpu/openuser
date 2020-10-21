@@ -7,7 +7,7 @@ import (
 
 	"github.com/ory/x/sqlcon"
 
-	"github.com/zzpu/openuser/continuity"
+	"github.com/zzpu/ums/continuity"
 )
 
 var _ continuity.Persister = new(Persister)

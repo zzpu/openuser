@@ -15,7 +15,7 @@ ORY Kratos supports two logout flows:
 > WARNING - This flow is currently vulnerable to CSRF attacks because anyone can
 > direct your users to the logout endpoint. A future release of ORY Kratos will
 > use POST Forms with Anti-CSRF Tokens to prevent this problem. This is tracked
-> as [kratos#142](https://github.com/zzpu/openuser/issues/142).
+> as [kratos#142](https://github.com/zzpu/ums/issues/142).
 
 To log a user out, all you have to do is to direct the browser to
 `http://ory-kratos-public/auth/browser/logout`. After successful logout, the

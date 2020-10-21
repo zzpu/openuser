@@ -9,16 +9,16 @@ import (
 
 	"github.com/ory/x/decoderx"
 
-	"github.com/zzpu/openuser/continuity"
-	"github.com/zzpu/openuser/driver/configuration"
-	"github.com/zzpu/openuser/hash"
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/errorx"
-	"github.com/zzpu/openuser/selfservice/flow/login"
-	"github.com/zzpu/openuser/selfservice/flow/registration"
-	"github.com/zzpu/openuser/selfservice/flow/settings"
-	"github.com/zzpu/openuser/session"
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/continuity"
+	"github.com/zzpu/ums/driver/configuration"
+	"github.com/zzpu/ums/hash"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/errorx"
+	"github.com/zzpu/ums/selfservice/flow/login"
+	"github.com/zzpu/ums/selfservice/flow/registration"
+	"github.com/zzpu/ums/selfservice/flow/settings"
+	"github.com/zzpu/ums/session"
+	"github.com/zzpu/ums/x"
 )
 
 var _ login.Strategy = new(Strategy)

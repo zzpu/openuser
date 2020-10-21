@@ -13,7 +13,7 @@ context('Login Flow Error', () => {
 
     cy.get('button[type="submit"]').click()
 
-    // FIXME https://github.com/zzpu/openuser/issues/91
+    // FIXME https://github.com/zzpu/ums/issues/91
     cy.get('html').should('contain.text', 'missing or invalid csrf_token value')
   })
 

@@ -3,7 +3,7 @@ package testhelpers
 import (
 	"github.com/ory/viper"
 
-	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/ums/driver/configuration"
 )
 
 // SetDefaultIdentitySchema sets the identity schemas in viper config:

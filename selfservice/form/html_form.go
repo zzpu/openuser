@@ -18,8 +18,8 @@ import (
 	"github.com/ory/x/jsonx"
 	"github.com/ory/x/stringslice"
 
-	"github.com/zzpu/openuser/schema"
-	"github.com/zzpu/openuser/text"
+	"github.com/zzpu/ums/schema"
+	"github.com/zzpu/ums/text"
 )
 
 var (

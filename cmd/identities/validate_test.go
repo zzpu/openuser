@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/zzpu/openuser/internal/httpclient/client/public"
+	"github.com/zzpu/ums/internal/httpclient/client/public"
 
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"

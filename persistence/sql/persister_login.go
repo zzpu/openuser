@@ -9,8 +9,8 @@ import (
 
 	"github.com/ory/x/sqlcon"
 
-	"github.com/zzpu/openuser/identity"
-	"github.com/zzpu/openuser/selfservice/flow/login"
+	"github.com/zzpu/ums/identity"
+	"github.com/zzpu/ums/selfservice/flow/login"
 )
 
 var _ login.FlowPersister = new(Persister)

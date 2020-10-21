@@ -11,7 +11,7 @@ import (
 
 	"github.com/ory/x/urlx"
 
-	"github.com/zzpu/openuser/selfservice/flow"
+	"github.com/zzpu/ums/selfservice/flow"
 )
 
 func TestFlow(t *testing.T) {

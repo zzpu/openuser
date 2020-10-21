@@ -1,6 +1,6 @@
 package login
 
-import "github.com/zzpu/openuser/session"
+import "github.com/zzpu/ums/session"
 
 // The Response for Login Flows via API
 //

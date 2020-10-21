@@ -5,7 +5,7 @@ import (
 
 	"github.com/ory/viper"
 
-	"github.com/zzpu/openuser/driver/configuration"
+	"github.com/zzpu/ums/driver/configuration"
 )
 
 func StrategyEnable(strategy string, enable bool) {

@@ -8,7 +8,7 @@ import (
 
 	"github.com/ory/herodot"
 
-	"github.com/zzpu/openuser/x"
+	"github.com/zzpu/ums/x"
 )
 
 var ErrOriginHeaderNeedsBrowserFlow = herodot.ErrBadRequest.
